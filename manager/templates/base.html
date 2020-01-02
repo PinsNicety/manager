@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Inventory</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+
+      <!-- navbar -->
+      <nav class="navbar navbar-dark bg-info d-flex px-4">
+        <span class="justify-content-beginning">
+          <h2>Manager</h2>
+        </span>
+        <span class="justify-content-end">
+
+          <!-- superuser nav options -->
+          {% if user.is_superuser %}
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="/admin/">
+                  Admin
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  {{ request.user.username }}
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Inventory</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Notes</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">TimeSheets</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="javascript:{document.getElementById('logout').submit()}">
+                  Logout
+                </a>
+              </li>
+            </ul>
+            <form id="logout" method="POST" action="">
+              {% csrf_token %}
+              <input type="hidden" />
+            </form>
+
+          <!-- regular user nav optione -->
+          {% elif user.is_authenticated %}
+            <ul class="nav nav-tabs">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  {{ request.user.username }}
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Inventory</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Notes</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">TimeSheets</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="javascript:{document.getElementById('logout').submit()}">
+                  Logout
+                </a>
+              </li>
+            </ul>
+            <form id="logout" method="POST" action="">
+              {% csrf_token %}
+              <input type="hidden" />
+            </form>
+
+          <!-- non user nav options -->
+          {% else %}
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="">
+                  Sign Up
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="">
+                  Login
+                </a>
+              </li>
+            </ul>
+          {% endif %}
+        </span>
+      </nav>
+      <!-- end navbar -->
+
+    </header>
+    <div class="container">
+      <!-- red tinted error messages -->
+      {% if error_red %}
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+          {{ error_red }}
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+      <!-- yellow tinted error messages -->
+      {% elif error_yellow %}
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+          {{ error_yellow }}
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+      <!-- green tinted error messages -->
+      {% elif error_green %}
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+          {{ error_green }}
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <br />
+        <br />
+      {% endif %}
+    </div>
+
+
+    <div class="container-fluid justify-content-center" style="width:75%">
+      <div class="row">
+        <div class="col-2 bg-dark border-right text-white">
+          <h2>Welcome {{ request.user.username }}</h2>
+        </div>
+        <div class="col-10 bg-light border-bottom border-right border-dark">
+          {% block content %}
+          {% endblock %}
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
