@@ -44,7 +44,7 @@
                 </a>
               </li>
             </ul>
-            <form id="logout" method="POST" action="">
+            <form id="logout" method="POST" action="{% url 'logout' %}">
               {% csrf_token %}
               <input type="hidden" />
             </form>
@@ -70,7 +70,7 @@
                 </a>
               </li>
             </ul>
-            <form id="logout" method="POST" action="">
+            <form id="logout" method="POST" action="{% url 'logout' %}">
               {% csrf_token %}
               <input type="hidden" />
             </form>
@@ -79,12 +79,12 @@
           {% else %}
             <ul class="nav nav-tabs">
               <li class="nav-item">
-                <a class="nav-link text-dark" href="">
+                <a class="nav-link text-dark" href="{% url 'signup' %}">
                   Sign Up
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-dark" href="">
+                <a class="nav-link text-dark" href="{% url 'login' %}">
                   Login
                 </a>
               </li>
