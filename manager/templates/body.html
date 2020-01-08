@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <div class="row">
+    <div class="col-2 bg-dark border-right text-white pt-2">
+    <h5>{{ left_header }}</h5>
+    </div>
+    <div class="col-10 bg-light border-bottom border-right border-dark">
+      {% block content %}
+      {% endblock %}
+    </div>
+  </div>
+{% endblock %}

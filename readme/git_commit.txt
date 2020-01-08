@@ -1,0 +1,3 @@
+- set up entry model for timekeeper
+- added button to main timekeeper page that opens a "modal" that
+lets the user create an entry

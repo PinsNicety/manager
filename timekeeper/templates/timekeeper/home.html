@@ -1,9 +1,81 @@
-{% extends 'base.html' %}
+{% extends 'body.html' %}
 
 {% block content %}
 
 
 <h1>TimeKeeper</h1>
+<hr>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#create_entry">
+  Add Entry
+</button>
+<hr>
+<div class="row p-1">
+  <table class="table table-dark table-bordered table-hover table-sm">
+    <thead>
+      <tr>
+        <th>January</th>
+      </tr>
+      <tr>
+        <th scope="col">Site</th>
+        <th scope="col">Time In</th>
+        <th scope="col">Time Out</th>
+        <th scope="col">Total</th>
+        <th scope="col">Comments</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for entry in entries %}
+        <tr>
+          <td>{{ entry.site }}</td>
+          <td>{{ entry.time_in }}</td>
+          <td>{{ entry.time_out }}</td>
+          <td>{{ entry.total_time }}</td>
+          <td>{{ entry.comments }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+</div>
+<!-- Modal -->
+<div class="modal fade pt-5" id="create_entry" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="create_inventory_label">Add Entry</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="{% url 'timekeeper-home' %}" method="POST">
+        {% csrf_token %}
+          Site:
+          <br />
+          <input type="text" name="site" />
+          <br />
+          Time-In:
+          <br />
+          <input type="datetime-local" name="time_in" />
+          <br />
+          Time-Out:
+          <br />
+          <input type="datetime-local" name="time_out" />
+          <br />
+          Comments:
+          <br />
+          <textarea name="comments" rows="8" cols="50"></textarea>
+          <br />
+          <br />
+          <input class="btn btn-primary" type="submit" value="Add Entry" />
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 
