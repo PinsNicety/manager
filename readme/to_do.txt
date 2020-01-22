@@ -4,4 +4,24 @@ TIMEKEEPER
   with only html
 - create sorting to only show current data for time period
 - add information for left sidebar to allow user to get into history
-- create page for expense reports to track mileage
+
+
+NOTES
+- create site model so you can track information pertaining to each location
+- merge the navigation in the left pain for easier updates
+- figure out way to retain line formatting from user input
+		- so we can add notes with tabs and spaces
+
+
+INVENTORY
+- create default device inventory that holds all device information
+- create separate table to track inventory that references all devices in the default inventory
+
+
+*************
+Create a module for all functions outside your views
+************
+
+CURRENT
+----------
+- finish the organization page by adding ability to create a site then link there

@@ -13,6 +13,9 @@ class Entry(models.Model):
     total_time = models.FloatField()
     user = models.ForeignKey(User, on_delete=models.CASCADE, default=None)
 
+    def __str__(self):
+        return self.site
+
 
 class Expense(models.Model):
     """ This model is for all expenses. """
@@ -21,3 +24,6 @@ class Expense(models.Model):
     miles = models.IntegerField()
     date = models.DateField()
     user = models.ForeignKey(User, on_delete=models.CASCADE, default=None)
+
+    def __str__(self):
+        return self.site

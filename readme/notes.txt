@@ -1,0 +1,6 @@
+Reset Database:
+  1. Delete tables from database
+  2. Delete everything in migrations folder except __init__.py
+  3. python manage.py makemigrations APPNAME
+  4. python manage.py migrate --fake APPNAME zero
+  5. python manage.py migrate APPNAME

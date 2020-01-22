@@ -11,7 +11,6 @@ def home(request):
         'left_header': 'home'
     }
 
-
     return render(request, 'timekeeper/home.html', content)
 
 def entries(request):
@@ -33,6 +32,7 @@ def entries(request):
                                             total_time=total_time,
                                             user = request.user
         )
+
         content['entries'] = models.Entry.objects.filter(user=request.user).order_by('time_out')
         return render(request, 'timekeeper/entries.html', content)
     else:
@@ -53,7 +53,7 @@ def expenses(request):
         expense = models.Expense.objects.create(site=request.POST['site'],
                                             miles=request.POST['miles'],
                                             date=new_date,
-                                            user = request.user
+                                            user=request.user
         )
         content['expenses'] = models.Expense.objects.filter(user=request.user).order_by('date')
         return render(request, 'timekeeper/expenses.html', content)
