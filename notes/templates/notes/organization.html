@@ -30,7 +30,14 @@
 <br />
 {{ organization.phone_number }}
 <br />
-
+<hr>
+<div class="btn-group" role="group" aria-label="Basic example">
+  {% for site in sites %}
+  <a href="{% url 'notes-site' organization.name site.name %}">
+    <button type="button" class="btn btn-secondary">{{ site.name }}</button>
+  </a>
+  {% endfor %}
+</div>
 
 <!-- Create Note Modal -->
 <div class="modal fade pt-5" id="create_site" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

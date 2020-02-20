@@ -1,0 +1,38 @@
+{% extends 'body.html' %}
+
+
+{% block left_nav %}
+  <h6>Organizations:</h6>
+
+  {% for organization in organizations %}
+    <a href="{% url 'notes-organization' organization.name %}"class="text-white">
+      {{ organization.name }}
+    </a>
+    <br />
+  {% endfor %}
+{% endblock %}
+
+
+
+{% block content %}
+<div>
+  <a href="{% url 'notes-home' %}" class="text-dark">
+    <h1>Home</h1>
+  </a>
+</div>
+<hr />
+<div>
+  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#create_organization">
+    Add Organization
+  </button>
+</div>
+<div>
+  {% for org in org_search_results %}
+    <a href="{% url 'notes-organization' org.name %}">
+      {{ org.name }}
+    </a>
+    <br>
+  {% endfor %}
+</div>
+
+{% endblock %}

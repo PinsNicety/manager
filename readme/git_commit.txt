@@ -1,1 +1,10 @@
+USER
+- extended user model to add a boolean field for tracking cellphone expense
+    - CHECK BEFORE COMMIT NOT SURE IF FINISHED(i dont this it tracks properly)
 
+NOTES
+- fixed formatting using RichTextField and white-space:pre so the notes keep line breaks
+- added search feature for for organizations on note-home. as of now it only returns
+an exact match for the search
+  - will fix with regex later
+- the the drop page for each organization has a quick link bar up to for each site attached

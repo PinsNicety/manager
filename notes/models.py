@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from djrichtextfield.models import RichTextField
 
 
 class Organization(models.Model):
@@ -71,7 +72,7 @@ class Site(models.Model):
 class Note(models.Model):
 
     date = models.DateField()
-    body = models.TextField(max_length=200)
+    body = RichTextField()
     site = models.ForeignKey(Site, on_delete=models.CASCADE, default=None)
     user = models.ForeignKey(User, on_delete=models.CASCADE, default=None)
 

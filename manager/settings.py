@@ -25,7 +25,7 @@ SECRET_KEY = 's1l01+%lrv_a)4iiw*swyhvl2z**j_hq#buv4l(bxbafxp=@pt'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.7.48', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'djrichtextfield'
 ]
 
 MIDDLEWARE = [
@@ -80,11 +81,22 @@ WSGI_APPLICATION = 'manager.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'DBmanager_1',
+        'NAME': 'django',
         'USER': 'postgres',
         'PASSWORD': 'django123',
         'HOST': 'localhost',
         'PORT': '5432',
+    }
+}
+
+DJRICHTEXTFIELD_CONFIG = {
+    'js': ['//tinymce.cachefly.net/4.1/tinymce.min.js'],
+    'init_template': 'djrichtextfield/init/tinymce.js',
+    'settings': {
+        'menubar': False,
+        'plugins': 'link image',
+        'toolbar': 'bold italic | link image | removeformat',
+        'width': 700
     }
 }
 

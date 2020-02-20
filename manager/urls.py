@@ -24,4 +24,5 @@ urlpatterns = [
     path('inventory/', include('inventory.urls')),
     path('notes/', include('notes.urls')),
     path('timekeeper/', include('timekeeper.urls')),
+    path('djrichtextfield/', include('djrichtextfield.urls')),
 ]

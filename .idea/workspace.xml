@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86b9ceeb-425c-4fea-807f-a935b0b81ddd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1X2vzyHY6FXSEiRCkza7JKWJS7S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86b9ceeb-425c-4fea-807f-a935b0b81ddd" name="Default Changelist" comment="" />
+      <created>1580257270217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580257270217</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myShow1" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="180" width="800" height="677" key="#Notifications" timestamp="1581037263674">
+      <screen x="0" y="27" width="1920" height="1012" />
+    </state>
+    <state x="555" y="180" width="800" height="677" key="#Notifications/1920.0.1920.1080/0.27.1920.1012@0.27.1920.1012" timestamp="1581037263674" />
+    <state x="743" y="276" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581037225219">
+      <screen x="0" y="27" width="1920" height="1012" />
+    </state>
+    <state x="743" y="276" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1012@0.27.1920.1012" timestamp="1581037225219" />
+    <state x="809" y="136" key="SettingsEditor" timestamp="1581037259425">
+      <screen x="0" y="27" width="1920" height="1012" />
+    </state>
+    <state x="809" y="136" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1012@0.27.1920.1012" timestamp="1581037259425" />
+    <state x="2536" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1580257277846">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2536" y="366" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1012@0.27.1920.1012" timestamp="1580257277846" />
+  </component>
+</project>

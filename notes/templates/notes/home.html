@@ -15,13 +15,27 @@
 
 
 {% block content %}
-
-<h1>Notes</h1>
+<div>
+  <h1>Notes</h1>
+</div>
 <hr />
-<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#create_organization">
-  Add Organization
-</button>
+<div>
+  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#create_organization">
+    Add Organization
+  </button>
+</div>
+<div>
+  <form action="{% url 'notes-org_search' %}" method="post">
+  {% csrf_token %}
+    <div class="input-group mb-3">
+      <input type="text" name="search_text"class="form-control" placeholder="Choose an Organization...">
+      <div class="input-group-append">
+        <input class="btn btn-outline-secondary" type="submit" value="Search">
+      </div>
+    </div>
+  </form>
 
+</div>
 
 
 <!-- Create Organization Modal -->

@@ -8,10 +8,11 @@ def home(request):
     """ Handles all the actions on the timekeeper main page. """
 
     content = {
-        'left_header': 'home'
+        'left_header': 'home',
+        'user': request.user
     }
 
-    return render(request, 'timekeeper/home.html', content)
+    return render(request, 'timekeeper/timekeeper_sub.html', content)
 
 def entries(request):
     """ Shows all entries for current user in the current pay period. """

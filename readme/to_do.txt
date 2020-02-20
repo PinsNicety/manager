@@ -4,13 +4,23 @@ TIMEKEEPER
   with only html
 - create sorting to only show current data for time period
 - add information for left sidebar to allow user to get into history
+- add rounding to times for when people enter a time that isn't a whole or half hour
+- allow user to download current time period timesheets(either 1 or both)
 
 
 NOTES
-- create site model so you can track information pertaining to each location
 - merge the navigation in the left pain for easier updates
 - figure out way to retain line formatting from user input
 		- so we can add notes with tabs and spaces
+- make the left pane be for last 10 sites visited for each user
+- update home page to search for an organization with a search bar - COMPLETE
+    - will add a fix to use regex to have a more thorough search
+- update look and feel of note page
+- create "business" that an employee is a part of so they can only view organizations and things
+from other businesses they aren't a part of
+- add ability for admin to add panels to an inventory at a site
+- update adding of organizations and sites so you can't duplicate
+
 
 
 INVENTORY
@@ -21,7 +31,3 @@ INVENTORY
 *************
 Create a module for all functions outside your views
 ************
-
-CURRENT
-----------
-- finish the organization page by adding ability to create a site then link there

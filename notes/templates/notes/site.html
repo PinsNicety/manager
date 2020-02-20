@@ -35,11 +35,11 @@
 <br />
 {% for note in notes %}
   <div class="card text-white bg-success mb-3" style="width:100%">
-  <div class="card-header">{{ note.date }}</div>
-  <div class="card-body">
-    <h5 class="card-title">{{ note.user.username }}</h5>
-    <p class="card-text">{{ note.body }}</p>
-  </div>
+    <div class="card-header">{{ note.date }}</div>
+    <div class="card-body">
+      <h5 class="card-title">{{ note.user.username }}</h5>
+      <p class="card-text"   style="white-space:pre;">{{ note.body }}</p>
+    </div>
   </div>
 {% endfor %}
 
@@ -57,16 +57,8 @@
       <div class="modal-body">
         <form action="{% url 'notes-site' organization.name site.name %}" method="POST">
         {% csrf_token %}
-          Date:
-          <br />
-          <input type="date" name="date" value="{{ date }}" />
-          <br />
-          Notes:
-          <br />
-          <textarea name="body" rows="8" cols="50"></textarea>
-          <br />
-          <br />
-          <input class="btn btn-primary" type="submit" value="Add Note" />
+          {{ form.as_p }}
+          <input type="submit" value="Submit">
         </form>
       </div>
     </div>
