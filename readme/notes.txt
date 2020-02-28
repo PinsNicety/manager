@@ -4,3 +4,8 @@ Reset Database:
   3. python manage.py makemigrations APPNAME
   4. python manage.py migrate --fake APPNAME zero
   5. python manage.py migrate APPNAME
+
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+- change /media to choose and location for all media files
+- allows any files used with models to save here
