@@ -16,7 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 from accounts import views
-django.conf import settings
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('', views.home, name='home'),
@@ -25,5 +26,6 @@ urlpatterns = [
     path('inventory/', include('inventory.urls')),
     path('notes/', include('notes.urls')),
     path('timekeeper/', include('timekeeper.urls')),
+    path('walktest/', include('walktest.urls')),
     path('djrichtextfield/', include('djrichtextfield.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

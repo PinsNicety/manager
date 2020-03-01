@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'inventory.apps.InventoryConfig',
     'notes.apps.NotesConfig',
     'timekeeper.apps.TimekeeperConfig',
+    'walktest.apps.WalktestConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
