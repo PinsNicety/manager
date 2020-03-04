@@ -29,6 +29,7 @@ INVENTORY
 
 WALKTEST
 - update site, and panel to ForeignKey once you merge with inventory and Notes
+- add ability to export the test to excel for the user to download
 
 
 *************

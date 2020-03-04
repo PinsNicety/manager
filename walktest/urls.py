@@ -3,4 +3,5 @@ from . import views
 
 urlpatterns = [
     path('', views.home, name='walktest-home'),
+    path('<int:id>', views.export, name='walktest-export')
 ]
