@@ -1,0 +1,377 @@
+******************** EVENT HISTORY START****************************************
+CLR TB IN SYSTEM    Sys Initialization                       11:11A 121819 Wed  
+ BLOCK ACKNOWLEDGE             NON-FIRE                   11   :10A 121819 Wed  
+TROUBL IN SYSTEM    Sys Initialization                       11:10A 121819 Wed  
+ SYSTEM RESET                                                11:10A 121819 Wed  
+ ACKNOWLEDGE                       1M024                     11:09A 121819 Wed  
+ALARM: PULL_STATION CABLE VAULT         BSMNT CAB VT  Z003   11:09A 121819 1M024
+ ACKNOWLEDGE                       1D023                     11:09A 121819 Wed  
+ALARM: SMOKE(PHOTO) CABLE VAULT         BSM CABLE VT  Z003   11:09A 121819 1D023
+ ACKNOWLEDGE                       1D022                     11:08A 121819 Wed  
+ALARM: SMOKE(PHOTO) CABLE VAULT         BSM CABLE VT  Z003   11:08A 121819 1D022
+ ACKNOWLEDGE                       1D021                     11:08A 121819 Wed  
+ALARM: SMOKE(PHOTO) CABLE VAULT         BSM CABLE VT  Z003   11:08A 121819 1D021
+ ACKNOWLEDGE                       1D020                     11:07A 121819 Wed  
+ALARM: SMOKE(PHOTO) CABLE VAULT         BSM CABLE VT  Z003   11:07A 121819 1D020
+ ACKNOWLEDGE                       1D019                     11:05A 121819 Wed  
+ALARM: SMOKE(PHOTO) CABLE VAULT         BSM CABLE VT  Z003   11:05A 121819 1D019
+ ACKNOWLEDGE                       1D018                     11:04A 121819 Wed  
+ALARM: SMOKE(PHOTO) CABLE VAULT         BSM CABLE VT  Z003   11:04A 121819 1D018
+ ACKNOWLEDGE                       1D017                     11:04A 121819 Wed  
+ALARM: SMOKE(PHOTO) CABLE VAULT         BSM CABLE VT  Z003   11:04A 121819 1D017
+ ACKNOWLEDGE                       1D026                     11:02A 121819 Wed  
+ALARM: SMOKE(PHOTO) HALLWAY             BSMNT 217     Z003   11:02A 121819 1D026
+ ACKNOWLEDGE                       1D025                     11:00A 121819 Wed  
+ ACKNOWLEDGE                       1D027                     11:00A 121819 Wed  
+ALARM: SMOKE(PHOTO) HALLWAY             BSMNT 217     Z003   11:00A 121819 1D025
+ALARM: SMOKE(PHOTO) HALL OUTSIDE VAULT  BSMNT OUT217  Z003   11:00A 121819 1D027
+ ACKNOWLEDGE                       1D030                     10:47A 121819 Wed  
+ALARM: SMOKE(PHOTO) BTM STAIRS          BSMNT STR     Z003   10:47A 121819 1D030
+ ACKNOWLEDGE                       1D029                     10:46A 121819 Wed  
+ ACKNOWLEDGE                       1D028                     10:46A 121819 Wed  
+ALARM: SMOKE(DUCTP) HVAC RM             BSMNT HVAC    Z003   10:46A 121819 1D029
+ALARM: SMOKE(PHOTO) HVAC RM             BSMNT HVAC    Z003   10:46A 121819 1D028
+ ACKNOWLEDGE                       1M031                     10:45A 121819 Wed  
+ALARM: PULL_STATION BTM STAIRS          BSMNT STWL    Z003   10:45A 121819 1M031
+ ACKNOWLEDGE                       1D032                     10:44A 121819 Wed  
+ALARM: SMOKE(PHOTO) ADMIN OFFICE        BSMNT OFFC    Z003   10:44A 121819 1D032
+ ACKNOWLEDGE                       1D033                     10:44A 121819 Wed  
+ALARM: SMOKE(PHOTO) ADMIN OFFICE        BSMNT OFFC    Z003   10:44A 121819 1D033
+ ACKNOWLEDGE                       1D034                     10:43A 121819 Wed  
+ALARM: SMOKE(PHOTO) ADMIN OFFICE        BSMNT OFFC    Z003   10:43A 121819 1D034
+ ACKNOWLEDGE                       1D037                     10:42A 121819 Wed  
+ALARM: SMOKE(PHOTO) ADMIN OFFICE        BSMNT OFFC    Z003   10:42A 121819 1D037
+ ACKNOWLEDGE                       1D036                     10:42A 121819 Wed  
+ALARM: SMOKE(PHOTO) ADMIN OFFICE        BSMNT OFFC    Z003   10:42A 121819 1D036
+ ACKNOWLEDGE                       1D040                     10:41A 121819 Wed  
+ALARM: SMOKE(PHOTO) ADMIN OFFICE        BSMNT OFFC    Z003   10:41A 121819 1D040
+ ACKNOWLEDGE                       1D041                     10:40A 121819 Wed  
+ALARM: SMOKE(PHOTO) ADMIN OFFICE        BSMNT OFFC    Z003   10:40A 121819 1D041
+ ACKNOWLEDGE                       1D038                     10:40A 121819 Wed  
+ALARM: SMOKE(PHOTO) ADMIN OFFICE        BSMNT OFFC    Z003   10:40A 121819 1D038
+ ACKNOWLEDGE                       1D039                     10:35A 121819 Wed  
+ALARM: SMOKE(PHOTO) ADMIN OFFICE        BSMNT OFFC    Z003   10:35A 121819 1D039
+ ACKNOWLEDGE                       1D043                     10:34A 121819 Wed  
+ALARM: SMOKE(PHOTO) ADMIN OFFICE        BSMNT OFFC    Z003   10:34A 121819 1D043
+ ACKNOWLEDGE                       1D042                     10:33A 121819 Wed  
+ALARM: SMOKE(PHOTO) ADMIN OFFICE        BSMNT OFFC    Z003   10:33A 121819 1D042
+ ACKNOWLEDGE                       1M045                     10:33A 121819 Wed  
+ALARM: PULL_STATION VESTIBULE           BSMNT VEST    Z003   10:33A 121819 1M045
+ ACKNOWLEDGE                       1D044                     10:33A 121819 Wed  
+ALARM: SMOKE(PHOTO) VESTIBULE           BSMNT VEST    Z003   10:33A 121819 1D044
+ ACKNOWLEDGE                       1D057                     10:31A 121819 Wed  
+ALARM: HEAT         BOILER RM           BSMNT BOILER  Z001   10:31A 121819 1D057
+ ACKNOWLEDGE                       1D046                     10:30A 121819 Wed  
+ALARM: SMOKE(PHOTO) POWER RM            BSMNT PWR RM  Z003   10:30A 121819 1D046
+ ACKNOWLEDGE                       1D047                     10:30A 121819 Wed  
+ALARM: SMOKE(PHOTO) POWER RM            BSMNT PWR RM  Z003   10:30A 121819 1D047
+ ACKNOWLEDGE                       1D048                     10:29A 121819 Wed  
+ALARM: SMOKE(PHOTO) POWER RM            BSMNT PWR RM  Z003   10:29A 121819 1D048
+ ACKNOWLEDGE                       1M058                     10:29A 121819 Wed  
+ALARM: MONITOR      GENERAT RM FLAME    BSMNT GEN RM  Z006   10:29A 121819 1M058
+ ACKNOWLEDGE                       1M056                     10:28A 121819 Wed  
+ALARM: MONITOR      GENERAT RM FLAME    BSMNT GEN RM  Z006   10:28A 121819 1M056
+ ACKNOWLEDGE                       1D049                     10:28A 121819 Wed  
+ALARM: SMOKE(DUCTP) POWER RM            BSMNT PWR RM  Z003   10:28A 121819 1D049
+ ACKNOWLEDGE                       1D052                     10:27A 121819 Wed  
+ALARM: SMOKE(PHOTO) POWER RM            BSMNT PWR RM  Z003   10:27A 121819 1D052
+ ACKNOWLEDGE                       1D051                     10:26A 121819 Wed  
+ALARM: SMOKE(PHOTO) POWER RM            BSMNT PWR RM  Z003   10:26A 121819 1D051
+ ACKNOWLEDGE                       1D050                     10:26A 121819 Wed  
+ALARM: SMOKE(PHOTO) POWER RM            BSMNT PWR RM  Z003   10:26A 121819 1D050
+ ACKNOWLEDGE                       1D053                     10:25A 121819 Wed  
+ALARM: SMOKE(PHOTO) POWER RM            BSMNT PWR RM  Z003   10:25A 121819 1D053
+ ACKNOWLEDGE                       1D016                     10:25A 121819 Wed  
+ALARM: SMOKE(PHOTO) EQUIP STORAGE       BSM EQP RM    Z003   10:25A 121819 1D016
+ ACKNOWLEDGE                       1D015                     10:24A 121819 Wed  
+ALARM: SMOKE(PHOTO) WMNS BATH           BSM WMN RM    Z003   10:24A 121819 1D015
+ ACKNOWLEDGE                       1D014                     10:24A 121819 Wed  
+ALARM: SMOKE(PHOTO) WMNS BATH           BSM WMS ENT   Z003   10:24A 121819 1D014
+ ACKNOWLEDGE                       1D054                     10:23A 121819 Wed  
+ALARM: SMOKE(PHOTO) POWER RM            BSMNT PWR RM  Z003   10:23A 121819 1D054
+ ACKNOWLEDGE                       1D055                     10:23A 121819 Wed  
+ALARM: SMOKE(PHOTO) POWER RM            BSMNT PWR RM  Z003   10:23A 121819 1D055
+ ACKNOWLEDGE                       1D059                     10:22A 121819 Wed  
+ALARM: SMOKE(PHOTO) POWER RM            BSMNT PWR     Z003   10:22A 121819 1D059
+ ACKNOWLEDGE                       1D062                     10:22A 121819 Wed  
+ALARM: SMOKE(PHOTO) STAIRWELL           BSMNT STWL    Z003   10:22A 121819 1D062
+ ACKNOWLEDGE                       1D012                     10:21A 121819 Wed  
+ALARM: SMOKE(PHOTO) MENS RM             BSMNT MEN RM  Z003   10:21A 121819 1D012
+ ACKNOWLEDGE                       1D011                     10:21A 121819 Wed  
+ALARM: SMOKE(PHOTO) LOUNGE              BSMNT LGE     Z003   10:21A 121819 1D011
+ ACKNOWLEDGE                       1D060                     10:20A 121819 Wed  
+ALARM: SMOKE(PHOTO) STAIRWELL           BSMNT STWL    Z003   10:20A 121819 1D060
+ ACKNOWLEDGE                       1D063                     10:19A 121819 Wed  
+ALARM: SMOKE(PHOTO) STORAGE RM          BSMNT STR     Z003   10:19A 121819 1D063
+ ACKNOWLEDGE                       1M061                     10:19A 121819 Wed  
+ALARM: PULL_STATION STAIRWELL           BSMNT STWL    Z003   10:18A 121819 1M061
+CLR TB IN SYSTEM    Sys Initialization                       09:48A 121819 Wed  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:48A 121819 Wed  
+TROUBL IN SYSTEM    Sys Initialization                       09:48A 121819 Wed  
+ SYSTEM RESET                                                09:48A 121819 Wed  
+ ACKNOWLEDGE                       1M130                     09:46A 121819 Wed  
+ ACKNOWLEDGE                       1M129                     09:45A 121819 Wed  
+ALARM: PULL_STATION EQUIP STORAGE       1ST EQ STOR   Z001   09:45A 121819 1M129
+ ACKNOWLEDGE                       1D120                     09:43A 121819 Wed  
+ALARM: SMOKE(LASER) EQUIP STOR          1ST EQ STOR   Z001   09:43A 121819 1D120
+ ACKNOWLEDGE                       1D119                     09:43A 121819 Wed  
+ALARM: SMOKE(LASER) EQUIP STOR          1ST EQ STOR   Z001   09:43A 121819 1D119
+ ACKNOWLEDGE                       1D127                     09:42A 121819 Wed  
+ALARM: SMOKE(LASER) EQUIPSTOR           1ST EQ STOR   Z001   09:42A 121819 1D127
+ ACKNOWLEDGE                       1D126                     09:42A 121819 Wed  
+ALARM: SMOKE(LASER) EQUIP STOR          1ST EQ STOR   Z001   09:42A 121819 1D126
+ ACKNOWLEDGE                       1D125                     09:42A 121819 Wed  
+ALARM: SMOKE(LASER) EQUIP STOR          1ST EQ STOR   Z001   09:42A 121819 1D125
+ ACKNOWLEDGE                       1D116                     09:41A 121819 Wed  
+ALARM: SMOKE(LASER) COLO AREA           1ST COLO RM   Z001   09:41A 121819 1D116
+ ACKNOWLEDGE                       1D110                     09:41A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   09:40A 121819 1D110
+ ACKNOWLEDGE                       1D112                     09:37A 121819 Wed  
+ALARM: SMOKE(PHOTO) STORAGE RM          1ST STOR RM   Z001   09:37A 121819 1D112
+ ACKNOWLEDGE                       1D081                     09:33A 121819 Wed  
+ALARM: SMOKE(LASER) FIBER OP EQUIP      1ST FIBER OP  Z001   09:33A 121819 1D081
+ ACKNOWLEDGE                       1D082                     09:32A 121819 Wed  
+ALARM: SMOKE(LASER) FIBER OP EQUIP      1ST FIBER OP  Z001   09:32A 121819 1D082
+ ACKNOWLEDGE                       1D085                     09:30A 121819 Wed  
+ALARM: SMOKE(LASER) FIBER OP EQUIP      1ST FIBER OP  Z001   09:30A 121819 1D085
+ ACKNOWLEDGE                       1D086                     09:30A 121819 Wed  
+ALARM: SMOKE(LASER) FIBER OP EQUIP      1ST FIBER OP  Z001   09:30A 121819 1D086
+ ACKNOWLEDGE                       1D107                     09:21A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   09:21A 121819 1D107
+ ACKNOWLEDGE                       1D099                     09:21A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   09:21A 121819 1D099
+ ACKNOWLEDGE                       1D098                     09:20A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   09:20A 121819 1D098
+ ACKNOWLEDGE                       1D096                     09:19A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   09:19A 121819 1D096
+ ACKNOWLEDGE                       1D095                     09:18A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   09:18A 121819 1D095
+ ACKNOWLEDGE                       1D094                     09:18A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   09:18A 121819 1D094
+ ACKNOWLEDGE                       1D113                     09:16A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   09:16A 121819 1D113
+ ACKNOWLEDGE                       1D104                     09:15A 121819 Wed  
+ ACKNOWLEDGE                       1D103                     09:15A 121819 Wed  
+ ACKNOWLEDGE                       1D102                     09:15A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   09:15A 121819 1D104
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   09:14A 121819 1D103
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   09:14A 121819 1D102
+ ACKNOWLEDGE                       1D093                     09:09A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   09:09A 121819 1D093
+ ACKNOWLEDGE                       1D087                     09:07A 121819 Wed  
+ALARM: SMOKE(LASER) FIBER OP EQUIP      1ST FIBER OP  Z001   09:07A 121819 1D087
+ ACKNOWLEDGE                       1D092                     09:06A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   09:06A 121819 1D092
+ ACKNOWLEDGE                       1D089                     09:05A 121819 Wed  
+ALARM: SMOKE(DUCTP) FIBER OP EQUIP      1ST FIBER OP  Z001   09:05A 121819 1D089
+ ACKNOWLEDGE                       1D088                     09:04A 121819 Wed  
+ALARM: SMOKE(LASER) FIBER OP EQUIP      1ST FIBER OP  Z001   09:04A 121819 1D088
+ ACKNOWLEDGE                       1D090                     09:04A 121819 Wed  
+ALARM: SMOKE(LASER) FIBER OP EQUIP      1ST FIBER OP  Z001   09:04A 121819 1D090
+ ACKNOWLEDGE                       1D101                     09:02A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   09:02A 121819 1D101
+ ACKNOWLEDGE                       1D117                     09:01A 121819 Wed  
+ALARM: SMOKE(PHOTO) WMNS RM             1ST WMNS      Z001   09:01A 121819 1D117
+ ACKNOWLEDGE                       1D118                     09:00A 121819 Wed  
+ALARM: SMOKE(PHOTO) MENS RM             1ST MENS      Z001   09:00A 121819 1D118
+ ACKNOWLEDGE                       1D115                     08:59A 121819 Wed  
+ALARM: SMOKE(LASER) BRAODVIEW AREA      1ST BV AREA   Z001   08:59A 121819 1D115
+ ACKNOWLEDGE                       1D114                     08:59A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   08:59A 121819 1D114
+ ACKNOWLEDGE                       1D122                     08:58A 121819 Wed  
+ALARM: SMOKE(LASER) BRAODVIEW AREA      1ST BV AREA   Z001   08:58A 121819 1D122
+ ACKNOWLEDGE                       1D123                     08:57A 121819 Wed  
+ALARM: SMOKE(LASER) COLO AREA           1ST COLO RM   Z001   08:57A 121819 1D123
+ ACKNOWLEDGE                       1D124                     08:57A 121819 Wed  
+ALARM: SMOKE(LASER) EQUIP SUPPORT       1ST EQ SUPP   Z001   08:57A 121819 1D124
+ ACKNOWLEDGE                       1D128                     08:54A 121819 Wed  
+ALARM: SMOKE(LASER) EQUIP SUPPORT       1ST EQ SUPP   Z001   08:54A 121819 1D128
+ ACKNOWLEDGE                       1D121                     08:54A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   08:54A 121819 1D121
+ ACKNOWLEDGE                       1D109                     08:53A 121819 Wed  
+ALARM: SMOKE(LASER) COLOCATION RM       1ST COLO RM   Z001   08:53A 121819 1D109
+ ACKNOWLEDGE                       1D108                     08:52A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   08:52A 121819 1D108
+ ACKNOWLEDGE                       1D100                     08:51A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   08:51A 121819 1D100
+ ACKNOWLEDGE                       1D091                     08:51A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL RM             1ST TOLL RM   Z001   08:51A 121819 1D091
+ ACKNOWLEDGE                       1D080                     08:49A 121819 Wed  
+ALARM: SMOKE(LASER) FIBER OP EQUIP      1ST FIBER OP  Z001   08:49A 121819 1D080
+ ACKNOWLEDGE                       1M070                     08:48A 121819 Wed  
+ALARM: PULL_STATION FIBER OP EQUIP      1STFL F/O EQ  Z001   08:48A 121819 1M070
+ ACKNOWLEDGE                       1D079                     08:48A 121819 Wed  
+ALARM: SMOKE(LASER) FIBER OP EQUIP      1ST FIBER OP  Z001   08:48A 121819 1D079
+ ACKNOWLEDGE                       1D078                     08:47A 121819 Wed  
+ALARM: SMOKE(LASER) FIBER OP EQUIP      1ST FIBER OP  Z001   08:47A 121819 1D078
+ ACKNOWLEDGE                       1D077                     08:47A 121819 Wed  
+ALARM: SMOKE(LASER) FIBER OP EQUIP      1ST FIBER OP  Z001   08:47A 121819 1D077
+ ACKNOWLEDGE                       1D076                     08:46A 121819 Wed  
+ALARM: SMOKE(LASER) FIBER OP EQUIP      1ST FIBER OP  Z001   08:46A 121819 1D076
+ ACKNOWLEDGE                       1D075                     08:46A 121819 Wed  
+ALARM: SMOKE(LASER) FIBER OP EQUIP      1ST FIBER OP  Z001   08:46A 121819 1D075
+ ACKNOWLEDGE                       1D073                     08:45A 121819 Wed  
+ALARM: SMOKE(LASER) FIBER OP EQUIP      1ST FIBER OP  Z001   08:45A 121819 1D073
+ ACKNOWLEDGE                       1D072                     08:44A 121819 Wed  
+ALARM: SMOKE(PHOTO) JANITOR CLST        1ST JAN CLST  Z001   08:44A 121819 1D072
+ ACKNOWLEDGE                       1D071                     08:43A 121819 Wed  
+ALARM: SMOKE(LASER) FIBER EQUIP LASER   1ST FIBER OP  Z001   08:43A 121819 1D071
+ SIGNAL SILENCED                                             08:42A 121819 Wed  
+ ACKNOWLEDGE                       1D069                     08:42A 121819 Wed  
+ALARM: SMOKE(PHOTO) STAIRWELL           1STFL STWL    Z001   08:42A 121819 1D069
+ ACKNOWLEDGE                       1M068                     08:41A 121819 Wed  
+ALARM: PULL_STATION STAIRWELL           1ST FL STWL   Z001   08:41A 121819 1M068
+ ACKNOWLEDGE                       1M010                     08:41A 121819 Wed  
+ALARM: PULL_STATION 1st fl INSIDE DR.#1               Z004   08:41A 121819 1M010
+CLR TB IN SYSTEM    Sys Initialization                       07:58A 121819 Wed  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:58A 121819 Wed  
+TROUBL IN SYSTEM    Sys Initialization                       07:57A 121819 Wed  
+ SYSTEM RESET                                                07:57A 121819 Wed  
+ ACKNOWLEDGE                       2D157                     07:55A 121819 Wed  
+ALARM: SMOKE(PHOTO) BATTERY RM          FL 2 BATT RM  Z002   07:55A 121819 2D157
+ ACKNOWLEDGE                       2D159                     07:55A 121819 Wed  
+ALARM: SMOKE(PHOTO) BATTERY RM          FL 2 BATT RM  Z002   07:55A 121819 2D159
+ ACKNOWLEDGE                       2D158                     07:54A 121819 Wed  
+ALARM: SMOKE(PHOTO) BATTERY RM          FL 2 BATT RM  Z002   07:54A 121819 2D158
+ ACKNOWLEDGE                       2D156                     07:54A 121819 Wed  
+ALARM: SMOKE(PHOTO) BATTERY RM          FL 2 BATT RM  Z002   07:54A 121819 2D156
+ ACKNOWLEDGE                       2D146                     07:52A 121819 Wed  
+ALARM: SMOKE(LASER) DMS EQUIP           FL 2 DMS EQ   Z002   07:52A 121819 2D146
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:52A 121819 Wed  
+TROUBL SMOKE(LASER) DMS EQUIP           FL 2 DMS EQ   DIRTY1 07:52A 121819 2D146
+ ACKNOWLEDGE                       2D150                     07:51A 121819 Wed  
+ALARM: SMOKE(LASER) DMS EQUIP           FL 2 DMS EQ   Z002   07:51A 121819 2D150
+ ACKNOWLEDGE                       2D154                     07:50A 121819 Wed  
+ALARM: SMOKE(LASER) DMS EQUIP           FL 2 DMS EQ   Z002   07:50A 121819 2D154
+ ACKNOWLEDGE                       2D155                     07:50A 121819 Wed  
+ALARM: SMOKE(LASER) DMS EQUIP           FL 2 DMS EQ   Z002   07:50A 121819 2D155
+ ACKNOWLEDGE                       2D151                     07:49A 121819 Wed  
+ALARM: SMOKE(LASER) DMS EQUIP           FL 2 DMS EQ   Z002   07:49A 121819 2D151
+ ACKNOWLEDGE                       2D147                     07:49A 121819 Wed  
+ALARM: SMOKE(LASER) DMS EQUIP           FL 2 DMS EQ   Z002   07:48A 121819 2D147
+ ACKNOWLEDGE                       2D143                     07:48A 121819 Wed  
+ALARM: SMOKE(LASER) DMS EQUIP           FL 2 DMS EQ   Z002   07:48A 121819 2D143
+ ACKNOWLEDGE                       2D142                     07:47A 121819 Wed  
+ALARM: SMOKE(LASER) DMS EQUIP           FL 2 DMS EQ   Z002   07:47A 121819 2D142
+ ACKNOWLEDGE                       2D141                     07:47A 121819 Wed  
+ALARM: SMOKE(LASER) DMS EQUIP           FL 2 DMS EQ   Z002   07:47A 121819 2D141
+ ACKNOWLEDGE                       2D145                     07:46A 121819 Wed  
+ALARM: SMOKE(LASER) DMS EQUIP           FL 2 DMS EQ   Z002   07:46A 121819 2D145
+ ACKNOWLEDGE                       2D149                     07:46A 121819 Wed  
+ALARM: SMOKE(LASER) DMS EQUIP           FL 2 DMS EQ   Z002   07:46A 121819 2D149
+ ACKNOWLEDGE                       2D153                     07:45A 121819 Wed  
+ALARM: SMOKE(LASER) DMS EQUIP           FL 2 DMS EQ   Z002   07:45A 121819 2D153
+ ACKNOWLEDGE                       2D152                     07:45A 121819 Wed  
+ALARM: SMOKE(LASER) DMS EQUIP           FL 2 DMS EQ   Z002   07:45A 121819 2D152
+ ACKNOWLEDGE                       2D148                     07:44A 121819 Wed  
+ALARM: SMOKE(LASER) DMS EQUIP           FL 2 DMS EQ   Z002   07:44A 121819 2D148
+ ACKNOWLEDGE                       2D144                     07:44A 121819 Wed  
+ALARM: SMOKE(LASER) DMS EQUIP           FL 2 DMS EQ   Z002   07:44A 121819 2D144
+ ACKNOWLEDGE                       2D140                     07:43A 121819 Wed  
+ALARM: SMOKE(LASER) DMS EQUIP           FL 2 DMS EQ   Z002   07:43A 121819 2D140
+ ACKNOWLEDGE                       2D139                     07:42A 121819 Wed  
+ALARM: SMOKE(PHOTO) STORAGE AREA        FL2 STOR      Z002   07:42A 121819 2D139
+ ACKNOWLEDGE                       2D138                     07:41A 121819 Wed  
+ALARM: SMOKE(PHOTO) HALLWAY             FL 2 HALLWY   Z002   07:41A 121819 2D138
+ ACKNOWLEDGE                       2D136                     07:39A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL EQUIP          FL 2 TOLL EQ  Z002   07:39A 121819 2D136
+ ACKNOWLEDGE                       2D137                     07:39A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL EQUIP          FL 2 TOLL EQ  Z002   07:39A 121819 2D137
+ ACKNOWLEDGE                       2D135                     07:38A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL EQUIP          FL 2 TOLL EQ  Z002   07:38A 121819 2D135
+ ACKNOWLEDGE                       2D134                     07:38A 121819 Wed  
+ALARM: SMOKE(LASER) TOLL EQUIP          FL 2 TOLL EQ  Z002   07:38A 121819 2D134
+ ACKNOWLEDGE                       2D133                     07:37A 121819 Wed  
+ALARM: SMOKE(PHOTO) TOLL EQUIP          FL 2 TOLL EQ  Z002   07:37A 121819 2D133
+ ACKNOWLEDGE                       2D126                     07:36A 121819 Wed  
+ALARM: SMOKE(PHOTO) OFFICE              FL 2 OFFICE   Z002   07:36A 121819 2D126
+ ACKNOWLEDGE                       2D129                     07:36A 121819 Wed  
+ALARM: SMOKE(PHOTO) STAIRWELL           FL 2 STWL     Z002   07:36A 121819 2D129
+ ACKNOWLEDGE                       2M130                     07:35A 121819 Wed  
+ALARM: PULL_STATION STAIRWELL           FL 2 STWL     Z002   07:35A 121819 2M130
+ ACKNOWLEDGE                       2D128                     07:35A 121819 Wed  
+ALARM: SMOKE(PHOTO) HALLWAY             FL 2 HALLWAY  Z002   07:35A 121819 2D128
+ ACKNOWLEDGE                       2D127                     07:34A 121819 Wed  
+ALARM: SMOKE(PHOTO) STORAGE RM          FL 2 STOR     Z002   07:34A 121819 2D127
+ ACKNOWLEDGE                       2D122                     07:33A 121819 Wed  
+ALARM: SMOKE(PHOTO) ADMIN SUPPORT       FL 2 ADMIN    Z002   07:33A 121819 2D122
+ ACKNOWLEDGE                       2D121                     07:32A 121819 Wed  
+ALARM: SMOKE(PHOTO) STORAGE RM          FL 2 STOR     Z002   07:32A 121819 2D121
+ ACKNOWLEDGE                       2D120                     07:32A 121819 Wed  
+ALARM: SMOKE(PHOTO) COPY RM             FL 2 COPY RM  Z002   07:32A 121819 2D120
+ ACKNOWLEDGE                       2D125                     07:31A 121819 Wed  
+ALARM: SMOKE(PHOTO) HALLWAY             FL2 TOLL OFC  Z002   07:31A 121819 2D125
+ ACKNOWLEDGE                       2D119                     07:31A 121819 Wed  
+ALARM: SMOKE(PHOTO) HALLWAY             FL 2 HALLWAY  Z002   07:30A 121819 2D119
+ ACKNOWLEDGE                       2D124                     07:30A 121819 Wed  
+ALARM: SMOKE(PHOTO) TOLL OFFICE         FL2 TOLL OFC  Z002   07:30A 121819 2D124
+ ACKNOWLEDGE                       2D123                     07:29A 121819 Wed  
+ALARM: SMOKE(PHOTO) TOLL OFFICE         FL2 TOLL OFC  Z002   07:29A 121819 2D123
+ ACKNOWLEDGE                       2D118                     07:28A 121819 Wed  
+ALARM: SMOKE(PHOTO) HALLWAY             FL 2 HALLWAY  Z002   07:28A 121819 2D118
+ ACKNOWLEDGE                       2D115                     07:28A 121819 Wed  
+ALARM: SMOKE(PHOTO) MAP RM              FL 2 MAP RM   Z002   07:28A 121819 2D115
+ ACKNOWLEDGE                       2D116                     07:26A 121819 Wed  
+ALARM: SMOKE(PHOTO) HALLWAY             FL 2 HALLWAY  Z002   07:26A 121819 2D116
+ ACKNOWLEDGE                       2D114                     07:26A 121819 Wed  
+ ACKNOWLEDGE                       2D101                     07:26A 121819 Wed  
+ALARM: SMOKE(PHOTO) HALLWAY             FL 2 HALLWAY  Z002   07:26A 121819 2D114
+ALARM: SMOKE(PHOTO) STAIRWELL           2ND STWL      Z002   07:26A 121819 2D101
+ ACKNOWLEDGE                       2D113                     07:26A 121819 Wed  
+ALARM: SMOKE(PHOTO) LOUNGE AREA         FL 2 LNGE     Z002   07:26A 121819 2D113
+ ACKNOWLEDGE                       2D112                     07:25A 121819 Wed  
+ALARM: SMOKE(PHOTO) HALLWAY             FL 2 HALLWAY  Z002   07:25A 121819 2D112
+CLR TB IN SYSTEM    Sys Initialization                       07:23A 121819 Wed  
+ ACKNOWLEDGE                       2D110                     07:23A 121819 Wed  
+ALARM: SMOKE(PHOTO) WOMENS RM           FL 2 WMNS RM  Z002   07:23A 121819 2D110
+ ACKNOWLEDGE                       2D109                     07:23A 121819 Wed  
+ALARM: SMOKE(PHOTO) HALLWAY             FL 2 HALLWAY  Z002   07:23A 121819 2D109
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:23A 121819 Wed  
+TROUBL IN SYSTEM    Sys Initialization                       07:23A 121819 Wed  
+ SYSTEM RESET                                                07:23A 121819 Wed  
+ ACKNOWLEDGE                       2D111                     07:22A 121819 Wed  
+ALARM: SMOKE(PHOTO) MENS RM             FL 2 MENS RM  Z002   07:22A 121819 2D111
+ ACKNOWLEDGE                       2D109                     07:22A 121819 Wed  
+ALARM: SMOKE(PHOTO) HALLWAY             FL 2 HALLWAY  Z002   07:22A 121819 2D109
+ ACKNOWLEDGE                       2D105                     07:21A 121819 Wed  
+ALARM: SMOKE(DUCTP) HVAC                2ND HVAC      Z002   07:21A 121819 2D105
+ ACKNOWLEDGE                       2D107                     07:20A 121819 Wed  
+ALARM: SMOKE(PHOTO) JANITOR CLST        FL2 CLST108   Z002   07:20A 121819 2D107
+ ACKNOWLEDGE                       2D104                     07:19A 121819 Wed  
+ALARM: SMOKE(PHOTO) HVAC                2ND HVAC      Z002   07:19A 121819 2D104
+ ACKNOWLEDGE                       2D106                     07:19A 121819 Wed  
+ALARM: SMOKE(PHOTO) HVAC                2ND HVAC      Z002   07:19A 121819 2D106
+ ACKNOWLEDGE                       2D108                     07:18A 121819 Wed  
+ALARM: SMOKE(PHOTO) HALLWAY             FL 2 HALLWAY  Z002   07:18A 121819 2D108
+ ACKNOWLEDGE                       2D103                     07:17A 121819 Wed  
+ALARM: SMOKE(PHOTO) HALLWAY             2ND HALLWAY   Z002   07:17A 121819 2D103
+ ACKNOWLEDGE                       2M102                     07:16A 121819 Wed  
+ALARM: PULL_STATION STAIRWELL           FL 2 STWL     Z002   07:16A 121819 2M102
+ ACKNOWLEDGE                       2D101                     07:16A 121819 Wed  
+ALARM: SMOKE(PHOTO) STAIRWELL           2ND STWL      Z002   07:16A 121819 2D101
+CLR TB IN SYSTEM     PROG MODE ACTIVATED                     07:09A 121819 Wed  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:09A 121819 Wed  
+TROUBL IN SYSTEM     PROG MODE ACTIVATED                     07:09A 121819 Wed  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:01A 121819 Wed  
+CLR TB IN SYSTEM     PROG MODE ACTIVATED                     07:01A 121819 Wed  
+DISABL STROBE CKT   NAC PANEL                         DISABL 07:00A 121819 B04  
+DISABL STROBE CKT   OUTSIDE STROBE                    DISABL 07:00A 121819 B03  
+DISABL STROBE CKT   HORN STROBE CKT 2                 DISABL 07:00A 121819 B02  
+DISABL STROBE CKT   HORN STROBE CKT 1                 DISABL 07:00A 121819 B01  
+DISABL SOFTWARE ZONEA/V DISABLE         Silenceable:NO       07:00A 121819  Z90
+
+    STATUS CHANGE     1=DIS/ENA POINT                        07:00A 121819 Wed  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:00A 121819 Wed  
+TROUBL IN SYSTEM     PROG MODE ACTIVATED                     07:00A 121819 Wed  
+VERIZON NORTHAMPTON                      SYSTEM NORMAL       07:00A 121819 Wed  
+CLR TB IN SYSTEM     PROG MODE ACTIVATED                     07:00A 121819 Wed  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:00A 121819 Wed  
+TROUBL IN SYSTEM     PROG MODE ACTIVATED                     07:00A 121819 Wed  
+VERIZON NORTHAMPTON                      SYSTEM NORMAL       06:59A 121819 Wed  
+CLR TB IN SYSTEM    Sys Initialization                       06:59A 121819 Wed  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      06:58A 121819 Wed  
+TROUBL IN SYSTEM    Sys Initialization                       06:58A 121819 Wed  
+ SYSTEM RESET                                                06:58A 121819 Wed  
+ SIGNAL SILENCED                                             06:57A 121819 Wed  
+ ACKNOWLEDGE                       2M102                     06:57A 121819 Wed  
+ALARM: PULL_STATION STAIRWELL           FL 2 STWL     Z002   06:54A 121819 2M102

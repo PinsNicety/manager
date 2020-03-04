@@ -9,3 +9,19 @@ Reset Database:
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 - change /media to choose and location for all media files
 - allows any files used with models to save here
+
+
+>> class ArticleForm(ModelForm):
+...     class Meta:
+...         model = Article
+...         fields = ['pub_date', 'headline', 'content', 'reporter']
+
+# Creating a form to add an article.
+>>> form = ArticleForm()
+
+# Creating a form to change an existing article.
+>>> article = Article.objects.get(pk=1)
+>>> form = ArticleForm(instance=article)
+
+- to add a site to the walktest modelform you will need to form.save(commit=False)
+and then manually save after you update form.site

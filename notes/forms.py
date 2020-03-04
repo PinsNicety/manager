@@ -5,6 +5,5 @@ from datetime import date
 
 
 class NoteForm(forms.Form):
-    new_date = date.today()
-    date = forms.DateField(initial=new_date, widget=SelectDateWidget())
+    date = forms.DateField(initial=date.today(), widget=SelectDateWidget())
     body = forms.CharField(widget=RichTextWidget())

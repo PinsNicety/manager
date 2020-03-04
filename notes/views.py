@@ -1,7 +1,6 @@
 from django.shortcuts import redirect, render
 from datetime import date
-from . import models
-from . import forms
+from . import forms, models
 
 
 # Create your views here.

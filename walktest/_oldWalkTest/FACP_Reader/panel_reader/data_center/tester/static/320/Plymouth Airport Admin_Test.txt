@@ -1,0 +1,588 @@
+******************** EVENT HISTORY START****************************************
+Plymouth Airport                         SYSTEM NORMAL       10:34A 062419 Mon  
+CLR TB IN SYSTEM     GROUND FAULT                            10:34A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:33A 062419 Mon  
+TROUBL IN SYSTEM     GROUND FAULT                            10:33A 062419 Mon  
+Plymouth Airport                         SYSTEM NORMAL       10:32A 062419 Mon  
+CLR TB IN SYSTEM     GROUND FAULT                            10:32A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:32A 062419 Mon  
+TROUBL IN SYSTEM     GROUND FAULT                            10:32A 062419 Mon  
+Plymouth Airport                         SYSTEM NORMAL       10:29A 062419 Mon  
+CLIR TB N SYSTEM     GROUND FAULT                            10:29A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:29A 062419 Mon  
+TROUBL IN SYSTEM     GROUND FAULT                            10:29A 062419 Mon  
+Plymouth Airport                         SYSTEM NORMAL       10:04A 062419 Mon  
+CLR TB IN SYSTEM     GROUND FAULT                            10:04A 062419 Mon  
+CLR TB IN SYSTEM    Sys Initialization                       10:04A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:03A 062419 Mon  
+TROUBL IN SYSTEM     GROUND FAULT                            10:03A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:02A 062419 Mon  
+TROUBL IN SYSTEM    Sys Initialization                       10:02A 062419 Mon  
+  SYSTEM POWER UP       PLEASE WAIT                                             
+UPDATED                                 DBASE 026.000        10:01A 062419 Mon  
+REQUEST JUMP TO BOOTLOADER                                   10:01A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:55A 062419 Mon  
+TROUBL IN SYSTEM     GROUND FAULT                            09:55A 062419 Mon  
+Plymouth Airport                         SYSTEM NORMAL       09:55A 062419 Mon  
+CLR TB IN SYSTEM     PROG MODE ACTIVATED                     09:55A 062419 Mon  
+CLR TB RELAY        Lighting Control    Interface     DISABL 09:55A 062419 1M020
+ENABLE SOFTWARE ZONELighting Disable    Silenceable:NO       09:55A 062419  Z88
+    STATUS CHANGE     1=DIS/ENA POINT                        09:55A 062419 Mon  
+TROUBL IN SYSTEM     PROG MODE ACTIVATED                     09:55A 062419 Mon  
+CLR ACTTRACK SUPERV Pressure Switch     MechRoom 112  Z018   09:54A 062419 1M004
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   09:54A 062419 1M004
+CLR ACTTRACK SUPERV Tamper Build Side   Room 112      Z017   09:54A 062419 1M003
+ACTIVE TRACK SUPERV Tamper Build Side   Room 112      Z017   09:53A 062419 1M003
+CLR ACTTRACK SUPERV Tamper Street Side  Room 112      Z017   09:53A 062419 1M002
+ACTIVE TRACK SUPERV Tamper Street Side  Room 112      Z017   09:53A 062419 1M002
+CLR TB IN SYSTEM    Sys Initialization                       09:53A 062419 Mon  
+ SIGNAL SILENCED                                             09:52A 062419 Mon  
+ SIGNAL SILENCED                                             09:52A 062419 Mon  
+ SYSTEM RESET                                                09:52A 062419 Mon  
+TROUBL IN SYSTEM    Sys Initialization                       09:52A 062419 Mon  
+ SYSTEM RESET                                                09:52A 062419 Mon  
+ ACKNOWLEDGE                       1M005                     09:52A 062419 Mon  
+ALARM: WATERFLOW    Mechanical          Room 112      Z003   09:52A 062419 1M005
+CLR TB IN SYSTEM    Sys Initialization                       09:49A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:49A 062419 Mon  
+TROUBL IN SYSTEM    Sys Initialization                       09:49A 062419 Mon  
+ SYSTEM RESET                                                09:49A 062419 Mon  
+ SIGNAL SILENCED                                             09:49A 062419 Mon  
+ ACKNOWLEDGE                       1M010                     09:49A 062419 Mon  
+ALARM: PULL_STATION Lobby by Landside   Vestibule     Z002   09:48A 062419 1M010
+CLR TB IN SYSTEM     PROG MODE ACTIVATED                     09:47A 062419 Mon  
+CLR TB BELL CIRCUIT NAC 4                             DISABL 09:47A 062419 B04  
+CLR TB BELL CIRCUIT NAC 3                             DISABL 09:47A 062419 B03  
+CLR TB BELL CIRCUIT Waterflow Bell                    DISABL 09:47A 062419 B02  
+CLR TB BELL CIRCUIT Beacon                            DISABL 09:47A 062419 B01  
+ENABLE SOFTWARE ZONEAV Disable          Silenceable:NO       09:47A 062419  Z90
+    STATUS CHANGE     1=DIS/ENA POINT                        09:47A 062419 Mon  
+TROUBL IN SYSTEM     PROG MODE ACTIVATED                     09:47A 062419 Mon  
+CLR TB IN SYSTEM    Sys Initialization                       09:47A 062419 Mon  
+ SYSTEM RESET                                                09:46A 062419 Mon  
+ SIGNAL SILENCED                                             09:46A 062419 Mon  
+TROUBL IN SYSTEM    Sys Initialization                       09:46A 062419 Mon  
+ SYSTEM RESET                                                09:46A 062419 Mon  
+ ACKNOWLEDGE                       1M006                     09:46A 062419 Mon  
+ALARM: PULL_STATION Corridor by OperatioOffice 108    Z002   09:46A 062419 1M006
+CLR TB IN SYSTEM    Sys Initialization                       09:45A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:45A 062419 Mon  
+TROUBL IN SYSTEM    Sys Initialization                       09:44A 062419 Mon  
+ SYSTEM RESET                                                09:44A 062419 Mon  
+ ACKNOWLEDGE                       1D001                     09:44A 062419 Mon  
+ALARM: SMOKE(PHOTO) Mechanical          Room 112      Z001   09:44A 062419 1D001
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:38A 062419 Mon  
+CLR TB IN SYSTEM     PROG MODE ACTIVATED                     09:38A 062419 Mon  
+DISABL BELL CIRCUIT NAC 4                             DISABL 09:38A 062419 B04  
+DISABL BELL CIRCUIT NAC 3                             DISABL 09:38A 062419 B03  
+DISABL BELL CIRCUIT Waterflow Bell                    DISABL 09:38A 062419 B02  
+DISABL BELL CIRCUIT Beacon                            DISABL 09:38A 062419 B01  
+DISABL SOFTWARE ZONEAV Disable          Silenceable:NO       09:38A 062419  Z90
+DISABL RELAY        Lighting Control    Interface     DISABL 09:37A 062419 1M020
+DISABL SOFTWARE ZONELighting Disable    Silenceable:NO       09:37A 062419  Z88
+    STATUS CHANGE     1=DIS/ENA POINT                        09:37A 062419 Mon  
+TROUBL IN SYSTEM     PROG MODE ACTIVATED                     09:37A 062419 Mon  
+Plymouth Airport                         SYSTEM NORMAL       09:37A 062419 Mon  
+CLR TB IN SYSTEM    Sys Initialization                       09:37A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:35A 062419 Mon  
+TROUBL IN SYSTEM    Sys Initialization                       09:35A 062419 Mon  
+  SYSTEM POWER UP       PLEASE WAIT                                             
+UPDATED                                 DBASE 026.000        09:35A 062419 Mon  
+REQUEST JUMP TO BOOTLOADER                                   09:34A 062419 Mon  
+CLR TB IN SYSTEM     PROG MODE ACTIVATED                     09:34A 062419 Mon  
+ENABLE SOFTWARE ZONELighting Disable    Silenceable:NO       09:34A 062419  Z88
+CLR TB BELL CIRCUIT NAC 4                             DISABL 09:34A 062419 B04  
+CLR TB BELL CIRCUIT NAC 3                             DISABL 09:34A 062419 B03  
+CLR TB BELL CIRCUIT Waterflow Bell                    DISABL 09:34A 062419 B02  
+CLR TB BELL CIRCUIT Beacon                            DISABL 09:34A 062419 B01  
+ENABLE SOFTWARE ZONEAV Disable          Silenceable:NO       09:34A 062419  Z90
+    STATUS CHANGE     1=DIS/ENA POINT                        09:34A 062419 Mon  
+TROUBL IN SYSTEM     PROG MODE ACTIVATED                     09:34A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:33A 062419 Mon  
+TROUBL IN SYSTEM     GROUND FAULT                            09:33A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:31A 062419 Mon  
+CLR TB IN SYSTEM     PROG MODE ACTIVATED                     09:31A 062419 Mon  
+DISABL SOFTWARE ZONELighting Disable    Silenceable:NO       09:31A 062419  Z88
+    STATUS CHANGE     1=DIS/ENA POINT                        09:31A 062419 Mon  
+TROUBL IN SYSTEM     PROG MODE ACTIVATED                     09:31A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:29A 062419 Mon  
+CLR TB IN SYSTEM     PROG MODE ACTIVATED                     09:29A 062419 Mon  
+DISABL BELL CIRCUIT NAC 4                             DISABL 09:29A 062419 B04  
+DISABL BELL CIRCUIT NAC 3                             DISABL 09:29A 062419 B03  
+DISABL BELL CIRCUIT Waterflow Bell                    DISABL 09:29A 062419 B02  
+DISABL BELL CIRCUIT Beacon                            DISABL 09:29A 062419 B01  
+DISABL SOFTWARE ZONEAV Disable          Silenceable:NO       09:29A 062419  Z90
+    STATUS CHANGE     1=DIS/ENA POINT                        09:29A 062419 Mon  
+    STATUS CHANGE     5=CHANGE TIME                          09:29A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:28A 062419 Mon  
+TROUBL IN SYSTEM     PROG MODE ACTIVATED                     08:28A 062419 Mon  
+Plymouth Airport                         SYSTEM NORMAL       08:28A 062419 Mon  
+CLR TB IN SYSTEM     PROG MODE ACTIVATED                     08:28A 062419 Mon  
+CLR TB BELL CIRCUIT NAC 4                             DISABL 08:28A 062419 B04  
+CLR TB BELL CIRCUIT NAC 3                             DISABL 08:28A 062419 B03  
+CLR TB BELL CIRCUIT Waterflow Bell                    DISABL 08:28A 062419 B02  
+CLR TB BELL CIRCUIT Beacon                            DISABL 08:28A 062419 B01  
+ENABLE SOFTWARE ZONEAV Disable          Silenceable:NO       08:28A 062419  Z90
+    STATUS CHANGE     1=DIS/ENA POINT                        08:28A 062419 Mon  
+TROUBL IN SYSTEM     PROG MODE ACTIVATED                     08:28A 062419 Mon  
+CLR TB IN SYSTEM    Sys Initialization                       08:28A 062419 Mon  
+CLR TB IN SYSTEM     GROUND FAULT                            08:27A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:27A 062419 Mon  
+TROUBL IN SYSTEM     GROUND FAULT                            08:26A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:26A 062419 Mon  
+DISABL BELL CIRCUIT NAC 4                             DISABL 08:26A 062419 B04  
+DISABL BELL CIRCUIT NAC 3                             DISABL 08:26A 062419 B03  
+DISABL BELL CIRCUIT Waterflow Bell                    DISABL 08:26A 062419 B02  
+DISABL BELL CIRCUIT Beacon                            DISABL 08:26A 062419 B01  
+TROUBL IN SYSTEM    Sys Initialization                       08:26A 062419 Mon  
+DISABL SOFTWARE ZONEAV Disable          Silenceable:NO       08:26A 062419 1D030
+  SYSTEM POWER UP       PLEASE WAIT                                             
+UPDATED                                 DBASE 026.000        08:25A 062419 Mon  
+REQUEST JUMP TO BOOTLOADER                                   08:24A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:21A 062419 Mon  
+TROUBL IN SYSTEM     GROUND FAULT                            08:21A 062419 Mon  
+CLR TB IN SYSTEM     PROG MODE ACTIVATED                     08:18A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:18A 062419 Mon  
+DISABL BELL CIRCUIT NAC 4                             DISABL 08:18A 062419 B04  
+DISABL BELL CIRCUIT NAC 3                             DISABL 08:18A 062419 B03  
+DISABL BELL CIRCUIT Waterflow Bell                    DISABL 08:18A 062419 B02  
+DISABL BELL CIRCUIT Beacon                            DISABL 08:18A 062419 B01  
+DISABL SOFTWARE ZONEAV Disable          Silenceable:NO       08:18A 062419  Z90
+    STATUS CHANGE     1=DIS/ENA POINT                        08:18A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:18A 062419 Mon  
+TROUBL IN SYSTEM     PROG MODE ACTIVATED                     08:18A 062419 Mon  
+                                         SYSTEM NORMAL       08:18A 062419 Mon  
+CLR TB IN SYSTEM     PROG MODE ACTIVATED                     08:18A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:18A 062419 Mon  
+TROUBL IN SYSTEM     PROG MODE ACTIVATED                     08:18A 062419 Mon  
+                                         SYSTEM NORMAL       08:06A 062419 Mon  
+CLR TB IN SYSTEM     BATTERY                                 08:06A 062419 Mon  
+CLR TB IN SYSTEM    Sys Initialization                       08:02A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:02A 062419 Mon  
+TROUBL IN SYSTEM    Sys Initialization                       08:02A 062419 Mon  
+ SYSTEM RESET                                                08:02A 062419 Mon  
+CLR TB IN SYSTEM     GROUND FAULT                            08:02A 062419 Mon  
+CLR TB IN SYSTEM    Sys Initialization                       08:01A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:00A 062419 Mon  
+TROUBL IN SYSTEM     GROUND FAULT                            08:00A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:59A 062419 Mon  
+TROUBL IN SYSTEM     BATTERY                                 07:59A 062419 Mon  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:59A 062419 Mon  
+TROUBL IN SYSTEM    Sys Initialization                       07:59A 062419 Mon  
+  SYSTEM POWER UP       PLEASE WAIT                                             
+UPDATED                                 DBASE 026.000        07:59A 062419 Mon  
+REQUEST JUMP TO BOOTLOADER                                   07:58A 062419 Mon  
+CLR ACTTRACK SUPERV Pressure Switch     MechRoom 112  Z018   07:57A 062419 1M004
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:57A 062419 Mon  
+TROUBL IN SYSTEM     GROUND FAULT                            07:56A 062419 Mon  
+CLR ACTTRACK SUPERV Tamper Build Side   Room 112      Z017   07:55A 062419 1M003
+CLR TB IN SYSTEM    Sys Initialization                       07:55A 062419 Mon  
+CLR ACTTRACK SUPERV Tamper Street Side  Room 112      Z017   07:54A 062419 1M002
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:54A 062419 Mon  
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   07:54A 062419 1M004
+ACTIVE TRACK SUPERV Tamper Build Side   Room 112      Z017   07:54A 062419 1M003
+ACTIVE TRACK SUPERV Tamper Street Side  Room 112      Z017   07:54A 062419 1M002
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:54A 062419 Mon  
+TROUBL IN SYSTEM     BATTERY                                 07:54A 062419 Mon  
+TROUBL IN SYSTEM    Sys Initialization                       07:53A 062419 Mon  
+  SYSTEM POWER UP       PLEASE WAIT                                             
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:51A 051419 Tue  
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   10:51A 051419 1M004
+ACTIVE TRACK SUPERV Tamper Build Side   Room 112      Z017   10:51A 051419 1M003
+ACTIVE TRACK SUPERV Tamper Street Side  Room 112      Z017   10:51A 051419 1M002
+CLR TB IN SYSTEM    Sys Initialization                       10:51A 051419 Tue  
+ SYSTEM RESET                                                10:50A 051419 Tue  
+ SIGNAL SILENCED                                             10:50A 051419 Tue  
+ SIGNAL SILENCED                                             10:50A 051419 Tue  
+ SIGNAL SILENCED                                             10:50A 051419 Tue  
+TROUBL IN SYSTEM    Sys Initialization                       10:50A 051419 Tue  
+ SYSTEM RESET                                                10:50A 051419 Tue  
+ ACKNOWLEDGE                       1M005                     10:50A 051419 Tue  
+ALARM: WATERFLOW    Mechanical          Room 112      Z003   10:50A 051419 1M005
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:50A 051419 Tue  
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   10:49A 051419 1M004
+ACTIVE TRACK SUPERV Tamper Build Side   Room 112      Z017   10:49A 051419 1M003
+ACTIVE TRACK SUPERV Tamper Street Side  Room 112      Z017   10:49A 051419 1M002
+CLR TB IN SYSTEM    Sys Initialization                       10:49A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:49A 051419 Tue  
+TROUBL IN SYSTEM    Sys Initialization                       10:49A 051419 Tue  
+ SYSTEM RESET                                                10:49A 051419 Tue  
+ SIGNAL SILENCED                                             10:49A 051419 Tue  
+ ACKNOWLEDGE                       1M008                     10:49A 051419 Tue  
+ALARM: PULL_STATION Restaurant Landside Exit          Z002   10:47A 051419 1M008
+CLR TB BELL CIRCUIT Beacon                            OPEN   10:46A 051419 B01  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:45A 051419 Tue  
+TROUBL BELL CIRCUIT Beacon                            OPEN   10:45A 051419 B01  
+CLR TB BELL CIRCUIT Waterflow Bell                    OPEN   10:44A 051419 B02  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:43A 051419 Tue  
+TROUBL BELL CIRCUIT Waterflow Bell                    OPEN   10:43A 051419 B02  
+CLR TB BELL CIRCUIT Waterflow Bell                    SHORT  10:43A 051419 B02  
+CLR TB BELL CIRCUIT NAC 3                             OPEN   10:43A 051419 B03  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:42A 051419 Tue  
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   10:42A 051419 1M004
+ACTIVE TRACK SUPERV Tamper Build Side   Room 112      Z017   10:42A 051419 1M003
+ACTIVE TRACK SUPERV Tamper Street Side  Room 112      Z017   10:42A 051419 1M002
+TROUBL BELL CIRCUIT Waterflow Bell                    SHORT  10:42A 051419 B02  
+TROUBL BELL CIRCUIT NAC 3                             OPEN   10:42A 051419 B03  
+CLR TB BELL CIRCUIT Waterflow Bell                    OPEN   10:42A 051419 B02  
+CLR TB IN SYSTEM    Sys Initialization                       10:42A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:42A 051419 Tue  
+TROUBL IN SYSTEM    Sys Initialization                       10:41A 051419 Tue  
+ SYSTEM RESET                                                10:41A 051419 Tue  
+ SIGNAL SILENCED                                             10:41A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:41A 051419 Tue  
+TROUBL BELL CIRCUIT Waterflow Bell                    OPEN   10:41A 051419 B02  
+ ACKNOWLEDGE                       1M001                     10:39A 051419 Tue  
+ALARM: PULL_STATION Mechanical          Room 112      Z002   10:39A 051419 1M001
+CLR TB IN SYSTEM    Sys Initialization                       10:38A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:37A 051419 Tue  
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   10:37A 051419 1M004
+ACTIVE TRACK SUPERV Tamper Build Side   Room 112      Z017   10:37A 051419 1M003
+ACTIVE TRACK SUPERV Tamper Street Side  Room 112      Z017   10:37A 051419 1M002
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:37A 051419 Tue  
+TROUBL IN SYSTEM     BATTERY                                 10:37A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:37A 051419 Tue  
+TROUBL IN SYSTEM    Sys Initialization                       10:36A 051419 Tue  
+  SYSTEM POWER UP       PLEASE WAIT                                             
+UPDATED                                 DBASE 026.000        10:36A 051419 Tue  
+REQUEST JUMP TO BOOTLOADER                                   10:35A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:35A 051419 Tue  
+TROUBL IN SYSTEM     GROUND FAULT                            10:35A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:33A 051419 Tue  
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   10:33A 051419 1M004
+ACTIVE TRACK SUPERV Tamper Build Side   Room 112      Z017   10:33A 051419 1M003
+ACTIVE TRACK SUPERV Tamper Street Side  Room 112      Z017   10:33A 051419 1M002
+CLR TB IN SYSTEM    Sys Initialization                       10:32A 051419 Tue  
+TROUBL IN SYSTEM    Sys Initialization                       10:32A 051419 Tue  
+ SYSTEM RESET                                                10:32A 051419 Tue  
+ SIGNAL SILENCED                                             10:32A 051419 Tue  
+ ACKNOWLEDGE                       1M008                     10:32A 051419 Tue  
+ALARM: PULL_STATION Restaurant Landside Exit          Z002   10:31A 051419 1M008
+CLR TB IN SYSTEM     PROG MODE ACTIVATED                     10:28A 051419 Tue  
+CLR TB HORN CIRCUIT NAC 4                             DISABL 10:28A 051419 B04  
+CLR TB HORN CIRCUIT NAC 3                             DISABL 10:28A 051419 B03  
+CLR TB BELL CIRCUIT Waterflow Bell                    DISABL 10:28A 051419 B02  
+CLR TB CONTROL NAC  Beacon                            DISABL 10:28A 051419 B01  
+ENABLE SOFTWARE ZONEAV Disable          Silenceable:NO       10:28A 051419  Z90
+    STATUS CHANGE     1=DIS/ENA POINT                        10:28A 051419 Tue  
+TROUBL IN SYSTEM     PROG MODE ACTIVATED                     10:28A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:22A 051419 Tue  
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   10:21A 051419 1M004
+ACTIVE TRACK SUPERV Tamper Build Side   Room 112      Z017   10:21A 051419 1M003
+ACTIVE TRACK SUPERV Tamper Street Side  Room 112      Z017   10:21A 051419 1M002
+CLR TB IN SYSTEM    Sys Initialization                       10:21A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:21A 051419 Tue  
+TROUBL IN SYSTEM    Sys Initialization                       10:21A 051419 Tue  
+ SYSTEM RESET                                                10:21A 051419 Tue  
+ ACKNOWLEDGE                       1M005                     10:21A 051419 Tue  
+ALARM: WATERFLOW    Mechanical          Room 112      Z003   10:20A 051419 1M005
+ BLOCK ACKNOWLEDGE             NON-FIRE                      10:19A 051419 Tue  
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   10:19A 051419 1M004
+ACTIVE TRACK SUPERV Tamper Build Side   Room 112      Z017   10:19A 051419 1M003
+ACTIVE TRACK SUPERV Tamper Street Side  Room 112      Z017   10:19A 051419 1M002
+CLR TB IN SYSTEM    Sys Initialization                       10:19A 051419 Tue  
+TROUBL IN SYSTEM    Sys Initialization                       10:18A 051419 Tue  
+ SYSTEM RESET                                                10:18A 051419 Tue  
+ SIGNAL SILENCED                                             10:18A 051419 Tue  
+CLR TB IN SYSTEM     LCD80 SUPERVISORY                       10:17A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:59A 051419 Tue  
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   09:59A 051419 1M004
+ACTIVE TRACK SUPERV Tamper Build Side   Room 112      Z017   09:59A 051419 1M003
+ACTIVE TRACK SUPERV Tamper Street Side  Room 112      Z017   09:59A 051419 1M002
+CLR TB IN SYSTEM    Sys Initialization                       09:584A 05119 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:58A 051419 Tue  
+TROUBL IN SYSTEM    Sys Initialization                       09:58A 051419 Tue  
+ SYSTEM RESET                                                09:58A 051419 Tue  
+ ACKNOWLEDGE                       1D002                     09:58A 051419 Tue  
+ALARM: SMOKE(PHOTO) Telecom             Room 114      Z001   09:57A 051419 1D002
+ ACKNOWLEDGE                       1D001                     09:57A 051419 Tue  
+ALARM: SMOKE(PHOTO) Mechanical          Room 112      Z001   09:57A 051419 1D001
+ ACKNOWLEDGE                       1D003                     09:56A 051419 Tue  
+ALARM: SMOKE(PHOTO) Pilots Lounge Room  Room 115      Z001   09:56A 051419 1D003
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:52A 051419 Tue  
+CLR ACTTRACK SUPERV CO Pilots Lounge                  Z019   09:52A 051419 1M011
+ACTIVE TRACK SUPERV CO Pilots Lounge                  Z019   09:52A 051419 1M011
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   09:51A 051419 1M004
+ACTIVE TRACK SUPERV Tamper Build Side   Room 112      Z017   09:51A 051419 1M003
+ACTIVE TRACK SUPERV Tamper Street Side  Room 112      Z017   09:51A 051419 1M002
+CLR TB IN SYSTEM    Sys Initialization                       09:51A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:51A 051419 Tue  
+TROUBL IN SYSTEM    Sys Initialization                       09:51A 051419 Tue  
+ SYSTEM RESET                                                09:51A 051419 Tue  
+CLR ACTTRACK SUPERV CO Pilots Lounge                  Z019   09:51A 051419 1M011
+ACTIVE TRACK SUPERV CO Pilots Lounge                  Z019   09:50A 051419 1M011
+ ACKNOWLEDGE                       1M010                     09:49A 051419 Tue  
+ALARM: PULL_STATION Lobby by Landside   Vestibule     Z002   09:49A 051419 1M010
+ ACKNOWLEDGE                       1M009                     09:49A 051419 Tue  
+ ACKNOWLEDGE                       1M008                     09:48A 051419 Tue  
+ ACKNOWLEDGE                       1M007                     09:48A 051419 Tue  
+ ACKNOWLEDGE                       1M006                     09:48A 051419 Tue  
+ALARM: PULL_STATION Restaurant Airside  Exit          Z002   09:48A 051419 1M009
+ALARM: PULL_STATION Restaurant Landside Exit          Z002   09:48A 051419 1M008
+ALARM: PULL_STATION Corridor by Airside Vestibule     Z002   09:47A 051419 1M007
+ALARM: PULL_STATION Corridor by OperatioOffice 108    Z002   09:46A 051419 1M006
+ ACKNOWLEDGE                       1M001                     09:45A 051419 Tue  
+ALARM: PULL_STATION Mechanical          Room 112      Z002   09:45A 051419 1M001
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:40A 051419 Tue  
+CLR TB IN SYSTEM     PROG MODE ACTIVATED                     09:40A 051419 Tue  
+DISABL HORN CIRCUIT NAC 4                             DISABL 09:40A 051419 B04  
+DISABL HORN CIRCUIT NAC 3                             DISABL 09:40A 051419 B03  
+DISABL BELL CIRCUIT Waterflow Bell                    DISABL 09:40A 051419 B02  
+DISABL CONTROL NAC  Beacon                            DISABL 09:40A 051419 B01  
+DISABL SOFTWARE ZONEAV Disable          Silenceable:NO       09:40A 051419  Z90
+    STATUS CHANGE     1=DIS/ENA POINT                        09:40A 051419 Tue  
+TROUBL IN SYSTEM     PROG MODE ACTIVATED                     09:40A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:39A 051419 Tue  
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   09:38A 051419 1M004
+ACTIVE TRACK SUPERV Tamper Build Side   Room 112      Z017   09:38A 051419 1M003
+ACTIVE TRACK SUPERV Tamper Street Side  Room 112      Z017   09:38A 051419 1M002
+CLR TB IN SYSTEM    Sys Initialization                       09:38A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:37A 051419 Tue  
+TROUBL IN SYSTEM    Sys Initialization                       09:37A 051419 Tue  
+ SYSTEM RESET                                                09:37A 051419 Tue  
+CLR TB TRACK SUPERV CO Pilots Lounge                  OPEN   09:32A 051419 1M011
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:30A 051419 Tue  
+TROUBL TRACK SUPERV CO Pilots Lounge                  OPEN   09:30A 051419 1M011
+CLR TB IN SYSTEM     PROG MODE ACTIVATED                     09:14A 051419 Tue  
+ENABLE SOFTWARE ZONELighting Disable    Silenceable:NO       09:13A 051419  Z88
+CLR TB HORN CIRCUIT NAC 4                             DISABL 09:13A 051419 B04  
+CLR TB HORN CIRCUIT NAC 3                             DISABL 09:13A 051419 B03  
+CLR TB BELL CIRCUIT Waterflow Bell                    DISABL 09:13A 051419 B02  
+CLR TB CONTROL NAC  Beacon                            DISABL 09:13A 051419 B01  
+ENABLE SOFTWARE ZONEAV Disable          Silenceable:NO       09:13A 051419  Z90
+    STATUS CHANGE     1=DIS/ENA POINT                        09:13A 051419 Tue  
+TROUBL IN SYSTEM     PROG MODE ACTIVATED                     09:13A 051419 Tue  
+CLR TB IN SYSTEM    Sys Initialization                       09:13A 051419 Tue  
+CLR TB IN SYSTEM     GROUND FAULT                            09:12A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:12A 051419 Tue  
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   09:12A 051419 1M004
+ACTIVE TRACK SUPERV Tamper Build Side   Room 112      Z017   09:12A 051419 1M003
+ACTIVE TRACK SUPERV Tamper Street Side  Room 112      Z017   09:12A 051419 1M002
+TROUBL IN SYSTEM     GROUND FAULT                            
+TROUBL IN SYSTEM     LCD80 SUPERVISORY                       09:12A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:11A 051419 Tue  
+TROUBL IN SYSTEM     BATTERY                                 09:11A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:11A 051419 Tue  
+DISABL HORN CIRCUIT NAC 4                             DISABL 09:11A 051419 B04  
+DISABL HORN CIRCUIT NAC 3                             DISABL 09:11A 051419 B03  
+DISABL BELL CIRCUIT Waterflow Bell                    DISABL 09:11A 051419 B02  
+DISABL CONTROL NAC  Beacon                            DISABL 09:11A 051419 B01  
+TROUBL IN SYSTEM    Sys Initialization                       09:11A 051419 Tue  
+DISABL SOFTWARE ZONEAV Disable          Silenceable:NO       09:11A 051419 1D030
+DISABL SOFTWARE ZONELighting Disable    Silenceable:NO       09:11A 051419 1D028
+  SYSTEM POWER UP       PLEASE WAIT                                             
+UPDATED                                 DBASE 026.000        09:10A 051419 Tue  
+REQUEST JUMP TO BOOTLOADER                                   09:10A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      09:09A 051419 Tue  
+TROUBL IN SYSTEM     GROUND FAULT                            09:09A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:52A 051419 Tue  
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   08:52A 051419 1M004
+ACTIVE TRACK SUPERV Tamper Build Side   Room 112      Z017   08:52A 051419 1M003
+ACTIVE TRACK SUPERV Tamper Street Side  Room 112      Z017   08:52A 051419 1M002
+CLR TB IN SYSTEM    Sys Initialization                       08:51A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:51A 051419 Tue  
+TROUBL IN SYSTEM    Sys Initialization                       08:51A 051419 Tue  
+ SYSTEM RESET                                                08:51A 051419 Tue  
+ ACKNOWLEDGE                       1M001                     08:51A 051419 Tue  
+ALARM: PULL_STATION Mechanical          Room 112      Z002   08:51A 051419 1M001
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:50A 051419 Tue  
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   08:50A 051419 1M004
+ACTIVE TRACK SUPERV Tamper Build Side   Room 112      Z017   08:50A 051419 1M003
+ACTIVE TRACK SUPERV Tamper Street Side  Room 112      Z017   08:50A 051419 1M002
+CLR TB IN SYSTEM    Sys Initialization                       08:50A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:50A 051419 Tue  
+TROUBL IN SYSTEM    Sys Initialization                       08:49A 051419 Tue  
+ SYSTEM RESET                                                08:49A 051419 Tue  
+ ACKNOWLEDGE                       1D002                     08:49A 051419 Tue  
+ALARM: SMOKE(PHOTO) Telecom             Room 114      Z001   08:48A 051419 1D002
+ ACKNOWLEDGE                       1M001                     08:47A 051419 Tue  
+ALARM: PULL_STATION Mechanical          Room 112      Z002   08:47A 051419 1M001
+CLR TB IN SYSTEM     PROG MODE ACTIVATED                     08:46A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:45A 051419 Tue  
+DISABL SOFTWARE ZONELighting Disable    Silenceable:NO       08:45A 051419  Z88
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:45A 051419 Tue  
+DISABL HORN CIRCUIT NAC 4                             DISABL 08:45A 051419 B04  
+DISABL HORN CIRCUIT NAC 3                             DISABL 08:45A 051419 B03  
+DISABL BELL CIRCUIT Waterflow Bell                    DISABL 08:45A 051419 B02  
+DISABL CONTROL NAC  Beacon                            DISABL 08:45A 051419 B01  
+DISABL SOFTWARE ZONEAV Disable          Silenceable:NO       08:45A 051419  Z90
+    STATUS CHANGE     1=DIS/ENA POINT                        08:45A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:45A 051419 Tue  
+TROUBL IN SYSTEM     PROG MODE ACTIVATED                     08:45A 051419 Tue  
+CLR TB IN SYSTEM     PROG MODE ACTIVATED                     08:32A 051419 Tue  
+   PROGRAM CHANGE      7=SYSTEM                              08:31A 051419 Tue  
+   PROGRAM CHANGE     11=UTILITY CHANGE                      08:31A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:31A 051419 Tue  
+TROUBL IN SYSTEM     PROG MODE ACTIVATED                     08:31A 051419 Tue  
+CLR TB BELL CIRCUIT Waterflow Bell                    OPEN   08:28A 051419 B02  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:21A 051419 Tue  
+TROUBL BELL CIRCUIT Waterflow Bell                    OPEN   08:21A 051419 B02  
+CLR TB BELL CIRCUIT Waterflow Bell                    OPEN   08:21A 051419 B02  
+CLR TB IN SYSTEM    Sys Initialization                       08:20A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:19A 051419 Tue  
+CLR TB SMOKE(PHOTO) Telecom             Room 114      INVREP 08:18A 051419 1D002
+TROUBL IN SYSTEM    Sys Initialization                       08:18A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:18A 051419 Tue  
+TROUBL BELL CIRCUIT Waterflow Bell                    OPEN   08:18A 051419 B02  
+CLR TB BELL CIRCUIT Waterflow Bell                    OPEN   08:17A 051419 B02  
+CLR TB IN SYSTEM    Sys Initialization                       08:15A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:14A 051419 Tue  
+TROUBL SMOKE(PHOTO) Telecom             Room 114      INVREP 08:14A 051419 1D002
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:14A 051419 Tue  
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   08:14A 051419 1M004
+ACTIVE TRACK SUPERV Tamper Build Side   Room 112      Z017   08:14A 051419 1M003
+ACTIVE TRACK SUPERV Tamper Street Side  Room 112      Z017   08:14A 051419 1M002
+TROUBL BELL CIRCUIT Waterflow Bell                    OPEN   08:14A 051419 B02  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:13A 051419 Tue  
+TROUBL IN SYSTEM     BATTERY                                 08:13A 051419 Tue  
+TROUBL IN SYSTEM    Sys Initialization                       08:13A 051419 Tue  
+  SYSTEM POWER UP       PLEASE WAIT                                             
+UPDATED                                 DBASE 026.000        08:12A 051419 Tue  
+REQUEST JUMP TO BOOTLOADER                                   08:12A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:11A 051419 Tue  
+TROUBL IN SYSTEM     GROUND FAULT                            08:11A 051419 Tue  
+CLR TB IN SYSTEM    Sys Initialization                       08:04A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      08:02A 051419 Tue  
+CLR TB SMOKE(PHOTO) Pilots Lounge Room  Room 115      INVREP 08:02A 051419 1D003
+TROUBL IN SYSTEM    Sys Initialization                       08:02A 051419 Tue  
+CLR TB IN SYSTEM    Sys Initialization                       08:01A 051419 Tue  
+CLR TB WATERFLOW    Mechanical          Room 112      OPEN   07:59A 051419 1M005
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:59A 051419 Tue  
+ACTIVE TRACK SUPERV Tamper Mechanical   Room 112      Z017   07:59A 051419 1M003
+ACTIVE TRACK SUPERV Tamper Mechanical   Room 112      Z017   07:59A 051419 1M002
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   07:59A 051419 1M004
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:59A 051419 Tue  
+CLR TB SMOKE(PHOTO) Mechanical          Room 112      INVREP 07:59A 051419 1D001
+TROUBL IN SYSTEM    Sys Initialization                       07:59A 051419 Tue  
+CLR TB RELAY        Ansul               RB Trip       INVREP 07:59A 051419 1M019
+CLR TB RELAY        Waterflow           RB Trip       INVREP 07:59A 051419 1M018
+CLR TB RELAY        Pull Stations       RB Trip       INVREP 07:59A 051419 1M017
+CLR TB RELAY        Smoke Detectors     RB Trip       INVREP 07:59A 051419 1M015
+TROUBL WATERFLOW    Mechanical          Room 112      OPEN   07:59A 051419 1M005
+CLR TB RELAY        Lighting Control    Interface     INVREP 07:59A 051419 1M020
+CLR TB PULL_STATION Restaurant Airside  Exit          INVREP 07:59A 051419 1M009
+CLR TB PULL_STATION Restaurant Landside Exit          INVREP 07:59A 051419 1M008
+CLR TB PULL_STATION Corridor by Airside Vestibule     INVREP 07:59A 051419 1M007
+CLR TB PULL_STATION Corridor by OperatioOffice 108    INVREP 07:59A 051419 1M006
+CLR ACTTRACK SUPERV Pressure Switch     MechRoom 112  Z018   07:59A 051419 1M004
+CLR ACTTRACK SUPERV Tamper Mechanical   Room 112      Z017   07:59A 051419 1M003
+CLR ACTTRACK SUPERV Tamper Mechanical   Room 112      Z017   07:59A 051419 1M002
+CLR TB PULL_STATION Mechanical          Room 112      INVREP 07:59A 051419 1M001
+CLR TB TRACK SUPERV Knox Box                          INVREP 07:59A 051419 1M012
+CLR TB PULL_STATION Lobby by Landside   Vestibule     INVREP 07:59A 051419 1M010
+CLR TB WATERFLOW    Mechanical          Room 112      INVREP 07:59A 051419 1M005
+CLR TB TRACK SUPERV Pressure Switch     MechRoom 112  INVREP 07:59A 051419 1M004
+CLR TB TRACK SUPERV Tamper Mechanical   Room 112      INVREP 07:59A 051419 1M003
+CLR TB TRACK SUPERV Tamper Mechanical   Room 112      INVREP 07:59A 051419 1M002
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:58A 051419 Tue  
+TROUBL SMOKE(PHOTO) Mechanical          Room 112      INVREP 07:58A 051419 1D001
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:58A 051419 Tue  
+TROUBL RELAY        Ansul               RB Trip       INVREP 07:58A 051419 1M019
+TROUBL RELAY        Waterflow           RB Trip       INVREP 07:58A 051419 1M018
+TROUBL RELAY        Pull Stations       RB Trip       INVREP 07:58A 051419 1M017
+TROUBL RELAY        Smoke Detectors     RB Trip       INVREP 07:58A 051419 1M015
+TROUBL TRACK SUPERV Knox Box                          INVREP 07:58A 051419 1M012
+TROUBL PULL_STATION Lobby by Landside   Vestibule     INVREP 07:58A 051419 1M010
+TROUBL PULL_STATION Restaurant Airside  Exit          INVREP 07:58A 051419 1M009
+TROUBL PULL_STATION Restaurant Landside Exit          INVREP 07:58A 051419 1M008
+TROUBL PULL_STATION Corridor by Airside Vestibule     INVREP 07:58A 051419 1M007
+TROUBL PULL_STATION Corridor by OperatioOffice 108    INVREP 07:58A 051419 1M006
+TROUBL WATERFLOW    Mechanical          Room 112      INVREP 07:58A 051419 1M005
+TROUBL TRACK SUPERV Pressure Switch     MechRoom 112  INVREP 07:58A 051419 1M004
+TROUBL TRACK SUPERV Tamper Mechanical   Room 112      INVREP 07:58A 051419 1M003
+TROUBL TRACK SUPERV Tamper Mechanical   Room 112      INVREP 07:58A 051419 1M002
+TROUBL PULL_STATION Mechanical          Room 112      INVREP 07:58A 051419 1M001
+TROUBL RELAY        Lighting Control    Interface     INVREP 07:58A 051419 1M020
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:57A 051419 Tue  
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   07:57A 051419 1M004
+ACTIVE TRACK SUPERV Tamper Mechanical   Room 112      Z017   07:57A 051419 1M003
+ACTIVE TRACK SUPERV Tamper Mechanical   Room 112      Z017   07:57A 051419 1M002
+CLR TB IN SYSTEM    Sys Initialization                       07:56A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:56A 051419 Tue  
+TROUBL IN SYSTEM    Sys Initialization                       07:56A 051419 Tue  
+ SYSTEM RESET                                                07:56A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:50A 051419 Tue  
+TROUBL BELL CIRCUIT Waterflow Bell                    SHORT  07:50A 051419 B02  
+CLR TB BELL CIRCUIT Waterflow Bell                    OPEN   07:50A 051419 B02  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:45A 051419 Tue  
+TROUBL BELL CIRCUIT Waterflow Bell                    OPEN   07:45A 051419 B02  
+CLR TB BELL CIRCUIT Waterflow Bell                    SHORT  07:45A 051419 B02  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:44A 051419 Tue  
+TROUBL BELL CIRCUIT Waterflow Bell                    SHORT  07:44A 051419 B02  
+CLR TB BELL CIRCUIT Waterflow Bell                    OPEN   07:44A 051419 B02  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:44A 051419 Tue  
+TROUBL BELL CIRCUIT Waterflow Bell                    OPEN   07:44A 051419 B02  
+CLR TB BELL CIRCUIT Waterflow Bell                    SHORT  07:44A 051419 B02  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:44A 051419 Tue  
+TROUBL BELL CIRCUIT Waterflow Bell                    SHORT  07:44A 051419 B02  
+CLR TB BELL CIRCUIT Waterflow Bell                    OPEN   07:44A 051419 B02  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:44A 051419 Tue  
+TROUBL BELL CIRCUIT Waterflow Bell                    OPEN   07:44A 051419 B02  
+CLR TB BELL CIRCUIT Waterflow Bell                    SHORT  07:44A 051419 B02  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:44A 051419 Tue  
+TROUBL BELL CIRCUIT Waterflow Bell                    SHORT  07:44A 051419 B02  
+CLR TB IN SYSTEM    Sys Initialization                       07:43A 051419 Tue  
+CLR TB BELL CIRCUIT Waterflow Bell                    OPEN   07:43A 051419 B02  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:43A 051419 Tue  
+TROUBL BELL CIRCUIT Waterflow Bell                    OPEN   07:43A 051419 B02  
+CLR TB BELL CIRCUIT Waterflow Bell                    OPEN   07:43A 051419 B02  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:43A 051419 Tue  
+TROUBL BELL CIRCUIT Waterflow Bell                    OPEN   07:43A 051419 B02  
+CLR TB BELL CIRCUIT Waterflow Bell                    OPEN   07:43A 051419 B02  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:43A 051419 Tue  
+TROUBL BELL CIRCUIT Waterflow Bell                    OPEN   07:43A 051419 B02  
+CLR TB IN SYSTEM     GROUND FAULT                            07:43A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:42A 051419 Tue  
+TROUBL SMOKE(PHOTO) Pilots Lounge Room  Room 115      INVREP 07:42A 051419 1D003
+TROUBL SMOKE(PHOTO) Telecom             Room 114      INVREP 07:42A 051419 1D002
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:42A 051419 Tue  
+TROUBL RELAY        Security Interface                INVREP 07:42A 051419 1M014
+ACTIVE TRACK SUPERV Pressure Switch     MechRoom 112  Z018   07:42A 051419 1M004
+ACTIVE TRACK SUPERV Tamper Mechanical   Room 112      Z017   07:42A 051419 1M003
+ACTIVE TRACK SUPERV Tamper Mechanical   Room 112      Z017   07:42A 051419 1M002
+TROUBL IN SYSTEM     GROUND FAULT                            07:42A 051419 Tue  
+ BLOCK ACKNOWLEDGE             NON-FIRE                      07:42A 051419 Tue  
+TROUBL IN SYSTEM     BATTERY                                 07:42A 051419 Tue  
+TROUBL TRACK SUPERV CO Pilots Lounge                  INVREP 07:41A 051419 1M011
+TROUBL IN SYSTEM    Sys Initialization                       07:41A 051419 Tue  
+  SYSTEM POWER UP       PLEASE WAIT                                             
+UPDATED                                 DBASE 026.000        07:41A 051419 Tue  
+REQUEST JUMP TO BOOTLOADER                                   07:40A 051419 Tue  
+CLR TB CONTROL      PANEL CIRCUIT NO. 2               OPEN   07:39A 051419 B02  
+ ACKNOWLEDGE                                                 07:37A 051419 Tue  
+TROUBL CONTROL      PANEL CIRCUIT NO. 2               OPEN   07:37A 051419 B02  
+CLR TB CONTROL      PANEL CIRCUIT NO. 2               SHORT  07:37A 051419 B02  
+ ACKNOWLEDGE                                                 07:37A 051419 Tue  
+TROUBL IN SYSTEM     GROUND FAULT                            07:36A 051419 Tue  
+ ACKNOWLEDGE                                                 07:29A 051419 Tue  
+TROUBL CONTROL      PANEL CIRCUIT NO. 2               SHORT  07:28A 051419 B02  
+CLR TB CONTROL      PANEL CIRCUIT NO. 2               OPEN   07:28A 051419 B02  
+CLR TB CONTROL      PANEL CIRCUIT NO. 3               OPEN   07:28A 051419 B03  
+TROUBL CONTROL      PANEL CIRCUIT NO. 2               OPEN   07:28A 051419 B02  
+TROUBL CONTROL      PANEL CIRCUIT NO. 3               OPEN   07:28A 051419 B03  
+CLR TB CONTROL      PANEL CIRCUIT NO. 3               SHORT  07:28A 051419 B03  
+ ACKNOWLEDGE                                                 07:28A 051419 Tue  
+TROUBL CONTROL      PANEL CIRCUIT NO. 3               SHORT  07:28A 051419 B03  
+CLR TB CONTROL      PANEL CIRCUIT NO. 3               OPEN   07:28A 051419 B03  
+ ACKNOWLEDGE                                                 07:28A 051419 Tue  
+CLR TB CONTROL      PANEL CIRCUIT NO. 2               OPEN   07:28A 051419 B02  
+TROUBL CONTROL      PANEL CIRCUIT NO. 3               OPEN   07:28A 051419 B03  
+TROUBL CONTROL      PANEL CIRCUIT NO. 2               OPEN   07:28A 051419 B02  
+CLR TB CONTROL      PANEL CIRCUIT NO. 2               SHORT  07:28A 051419 B02  
+ ACKNOWLEDGE                                                 07:28A 051419 Tue  
+TROUBL CONTROL      PANEL CIRCUIT NO. 2               SHORT  07:28A 051419 B02  
+CLR TB CONTROL      PANEL CIRCUIT NO. 2               OPEN   07:28A 051419 B02  
+ ACKNOWLEDGE                                                 07:27A 051419 Tue  
+TROUBL CONTROL      PANEL CIRCUIT NO. 2               OPEN   07:27A 051419 B02  
+CLR TB CONTROL      PANEL CIRCUIT NO. 2               SHORT  07:27A 051419 B02  
+ ACKNOWLEDGE                                                 07:25A 051419 Tue  
+TROUBL CONTROL      PANEL CIRCUIT NO. 2               SHORT  07:25A 051419 B02  
+CLR TB CONTROL      PANEL CIRCUIT NO. 2               OPEN   07:25A 051419 B02  
+ ACKNOWLEDGE                                                 07:25A 051419 Tue  
+TROUBL CONTROL      PANEL CIRCUIT NO. 2               OPEN   07:25A 051419 B02  
+CLR TB CONTROL      PANEL CIRCUIT NO. 2               SHORT  07:25A 051419 B02  
+ ACKNOWLEDGE                                                 07:25A 051419 Tue  
+TROUBL CONTROL      PANEL CIRCUIT NO. 2               SHORT  07:24A 051419 B02  
+ ACKNOWLEDGE                                                 07:24A 051419 Tue  
+TROUBL IN SYSTEM     BATTERY                                 07:24A 051419 Tue  
+********************     PRINT END      ****************************************

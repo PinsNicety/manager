@@ -55,7 +55,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <form action="{% url 'notes-site' organization.name site.name %}" method="POST">
+        <form enctype="multipart/form-data" action="{% url 'notes-site' organization.name site.name %}" method="POST">
         {% csrf_token %}
           {{ form.as_p }}
           <input type="submit" value="Submit">

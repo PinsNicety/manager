@@ -1,0 +1,5 @@
+6-14-2019
+---------
+- The program will take in a device list from 2-3030 and print to a spreadsheet.
+- It will then take in a list of events from 2-3030 test history and update all devices that have a valid test.
+- It will also update the above spreadsheet with the test_status and the time of test.

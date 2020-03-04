@@ -4,7 +4,11 @@
 
 
 <h1>WalkTest</h1>
-
+<form  enctype="multipart/form-data" action="{% url 'walktest-home' %}" method="POST">
+{% csrf_token %}
+  {{ form.as_p }}
+  <input type="submit" value="Run Test">
+</form>
 
 
 {% endblock %}

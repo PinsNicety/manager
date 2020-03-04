@@ -1,0 +1,167 @@
+NORMAL SMOKE(PHOTO) Front Entrance                    Z000   000%A6 1 **   1D001
+NORMAL SMOKE(DUCTP) Main Lobby RTU-2    Duct Smoke    Z000   000%A6 1 **   1D002
+NORMAL SMOKE(PHOTO) Main Lobby by Admin.              Z000   000%A6 1 **   1D003
+NORMAL SMOKE(PHOTO) Main Lobby          by Bath Rms.  Z000   000%A6 1 **   1D004
+NORMAL SMOKE(PHOTO) Main Lobby by OT/PT               Z000   000%A6 1 **   1D005
+NORMAL SMOKE(PHOTO) Main Lobby          by Reading    Z000   000%A6 1 **   1D006
+NORMAL SMOKE(PHOTO) Mens Rm. Main Lobby               Z000   001%A6 1 **   1D007
+NORMAL SMOKE(PHOTO) Womens Rm.Main Lobby              Z000   001%A6 1 **   1D008
+NORMAL SMOKE(PHOTO) C1 OT/PT Room                     Z000   000%A6 1 **   1D009
+NORMAL SMOKE(PHOTO) C2 Reading Room                   Z000   000%A6 1 **   1D010
+NORMAL HEAT(ROR)    Storage Main Lobby                Z000   051%      *   1D012
+NORMAL SMOKE(PHOTO) Data Main Lobby                   Z000   000%A6 1 **   1D013
+NORMAL SMOKE(DUCTP) AHU-1 Gym Duct Smoke              Z000   000%A6 1 **   1D014
+NORMAL SMOKE(DUCTP) AHU-2 Gym Duct Smoke              Z000   000%A6 1 **   1D015
+NORMAL SMOKE(PHOTO) A Corridor                        Z000   000%A6 1 **   1D016
+NORMAL SMOKE(PHOTO) A Corridor                        Z000   000%A6 1 **   1D017
+NORMAL SMOKE(PHOTO) A-1 Guidance Office               Z000   000%A6 1 **   1D018
+NORMAL SMOKE(PHOTO) A-2 Conference Rm.                Z000   000%A6 1 **   1D019
+NORMAL SMOKE(PHOTO) A-3 Publishing                    Z000   000%A6 1 **   1D020
+NORMAL SMOKE(PHOTO) A-4 Speech                        Z000   000%A6 1 **   1D021
+NORMAL HEAT(ROR)    A-5 Physical Ed.    Corridor      Z000   045%      *   1D022
+NORMAL HEAT(ROR)    A Custodian Closet                Z000   046%      *   1D023
+NORMAL SMOKE(PHOTO) A Vestibule                       Z000   002%A6 1 **   1D024
+NORMAL SMOKE(PHOTO) A Lobby                           Z000   000%A6 1 **   1D025
+NORMAL HEAT(ROR)    A Rec Storage                     Z000   044%      *   1D026
+NORMAL HEAT(ROR)    A-6 Custodial                     Z000   046%      *   1D027
+NORMAL HEAT(ROR)    A Stage                           Z000   045%      *   1D028
+NORMAL SMOKE(PHOTO) A Stage                           Z000   000%A6 1 **   1D029
+NORMAL SMOKE(PHOTO) A Stage                           Z000   000%A6 1 **   1D030
+NORMAL HEAT(ROR)    A Storage                         Z000   045%      *   1D031
+NORMAL HEAT(FIXED)  Kitchen                           Z000   047%      *   1D034
+NORMAL HEAT(FIXED)  Kitchen                           Z000   045%      *   1D035
+NORMAL HEAT(FIXED)  Fire Pump Room                    Z000   046%      *   1D036
+NORMAL SMOKE(PHOTO) Kitchen Office                    Z000   000%A6 1 **   1D037
+NORMAL HEAT(ROR)    Kitchen Storage                   Z000   046%      *   1D038
+NORMAL SMOKE(DUCTP) HV-1 Duct Smoke     Mech. Rm.     Z000   000%A6 1 **   1D039
+NORMAL HEAT(FIXED)  Mechanical Rm.                    Z000   052%      *   1D040
+NORMAL HEAT(FIXED)  Mechanical  Rm.                   Z000   052%      *   1D041
+NORMAL SMOKE(PHOTO) Main Electric Room                Z000   000%A6 1 **   1D042
+NORMAL SMOKE(PHOTO) Telephone Room                    Z000   000%A6 1 **   1D043
+NORMAL SMOKE(PHOTO) B Corridor                        Z000   000%A6 1 **   1D044
+NORMAL SMOKE(PHOTO) Corridor by Nurse Rm              Z000   000%A6 1 **   1D045
+NORMAL SMOKE(PHOTO) B Corridor by B-1                 Z000   000%A6 1 **   1D046
+NORMAL SMOKE(PHOTO) B Corridor by B-2                 Z000   001%A6 1 **   1D047
+NORMAL SMOKE(PHOTO) B Vestibule                       Z000   000%A6 1 **   1D048
+NORMAL HEAT(ROR)    B2 Closet                         Z000   045%      *   1D049
+NORMAL SMOKE(PHOTO) B-2                               Z000   000%A6 1 **   1D050
+NORMAL HEAT(ROR)    B-1 Closet                        Z000   046%      *   1D051
+NORMAL SMOKE(PHOTO) B-1                               Z000   000%A6 1 **   1D052
+NORMAL SMOKE(PHOTO) B Wing Nurse                      Z000   000%A6 1 **   1D053
+NORMAL SMOKE(PHOTO) B Wing Conference Rm              Z000   002%A6 1 **   1D054
+NORMAL SMOKE(PHOTO) Principals Office   Admin.        Z000   002%A6 1 **   1D055
+NORMAL SMOKE(PHOTO) Waiting/Reception RmAdmin.        Z000   000%A6 1 **   1D056
+NORMAL HEAT(ROR)    B-5 Closet                        Z000   049%      *   1D057
+NORMAL SMOKE(PHOTO) B-5                               Z000   000%A6 1 **   1D058
+NORMAL SMOKE(PHOTO) B-4                               Z000   000%A6 1 **   1D059
+NORMAL HEAT(ROR)    B-4 Closet                        Z000   048%      *   1D060
+NORMAL HEAT(ROR)    B-3 Closet                        Z000   046%      *   1D061
+NORMAL SMOKE(PHOTO) B-3                               Z000   000%A6 1 **   1D062
+NORMAL SMOKE(PHOTO) Staff Lounge        Main Lobby    Z000   000%A6 1 **   1D063
+NORMAL SMOKE(PHOTO) Work Room           Main Lobby    Z000   000%A6 1 **   1D064
+NORMAL SMOKE(PHOTO) C Corr. by Work Rm.               Z000   000%A6 1 **   1D065
+NORMAL SMOKE(PHOTO) C Boys Room                       Z000   000%A6 1 **   1D066
+NORMAL HEAT(ROR)    C Custodians Closet               Z000   049%      *   1D067
+NORMAL HEAT(ROR)    C Storage Closet                  Z000   049%      *   1D068
+NORMAL SMOKE(PHOTO) C Girls Room                      Z000   000%A6 1 **   1D069
+NORMAL SMOKE(PHOTO) C-3                               Z000   000%A6 1 **   1D070
+NORMAL SMOKE(PHOTO) C Corr. by C-10                   Z000   000%A6 1 **   1D071
+NORMAL SMOKE(PHOTO) C-10                              Z000   000%A6 1 **   1D072
+NORMAL SMOKE(PHOTO) C-9                               Z000   000%A6 1 **   1D073
+NORMAL SMOKE(PHOTO) C Corridor by C-4                 Z000   000%A6 1 **   1D074
+NORMAL SMOKE(PHOTO) C-4                               Z000   000%A6 1 **   1D075
+NORMAL SMOKE(PHOTO) C-5                               Z000   000%A6 1 **   1D076
+NORMAL SMOKE(PHOTO) C Corridor by C-5   B100          Z000   001%A6 1 **   1D077
+NORMAL SMOKE(PHOTO) C-8                               Z000   000%A6 1 **   1D078
+NORMAL SMOKE(PHOTO) C-7                               Z000   000%A6 1 **   1D079
+NORMAL SMOKE(PHOTO) C Corridor by C-6                 Z000   000%A6 1 **   1D080
+NORMAL SMOKE(PHOTO) Classroom           B105          Z000   000%A6 1 **   1D081
+NORMAL SMOKE(PHOTO) Corr.by Lobby B108  B100          Z000   000%A6 1 **   1D082
+NORMAL SMOKE(PHOTO) Lobby Middle North  B108          Z000   000%A6 1 **   1D083
+NORMAL SMOKE(PHOTO) Lobby by North Door B108          Z000   000%A6 1 **   1D084
+NORMAL SMOKE(PHOTO) Lobby by Vest.East  B108          Z000   000%A6 1 **   1D085
+NORMAL SMOKE(PHOTO) Vestibule East      B108A         Z000   000%A6 1 **   1D086
+NORMAL SMOKE(DUCTP) RTU-1 Duct Detector B109          Z000   000%A6 1 **   1D087
+NORMAL SMOKE(PHOTO) Computer Lab        B109          Z000   000%A6 1 **   1D088
+NORMAL SMOKE(PHOTO) Media Center East   B110          Z000   001%A6 1 **   1D089
+NORMAL SMOKE(PHOTO) Media Center West   B110          Z000   000%A6 1 **   1D090
+NORMAL SMOKE(PHOTO) Data/Video Headend  B118          Z000   000%A6 1 **   1D091
+NORMAL SMOKE(PHOTO) Girls               B119          Z000   000%A6 1 **   1D092
+NORMAL SMOKE(PHOTO) Boys                B121          Z000   000%A6 1 **   1D093
+NORMAL SMOKE(PHOTO) Toilet              B120          Z000   000%A6 1 **   1D094
+NORMAL SMOKE(PHOTO) Corridor by Toilet  B111          Z000   000%A6 1 **   1D096
+NORMAL SMOKE(PHOTO) Corr.by B117 & B112 B111          Z000   000%A6 1 **   1D097
+NORMAL SMOKE(PHOTO) Corr. by B116 & B113B111          Z000   001%A6 1 **   1D098
+NORMAL SMOKE(PHOTO) Corr. by B115 & B114B111          Z000   002%A6 1 **   1D099
+NORMAL SMOKE(PHOTO) Corridor North      B111          Z000   000%A6 1 **   1D100
+NORMAL SMOKE(PHOTO) Classroom           B115          Z000   000%A6 1 **   1D101
+NORMAL SMOKE(PHOTO) D-2                               Z000   000%A6 1 **   1D102
+NORMAL SMOKE(PHOTO) D-1                               Z000   000%A6 1 **   1D103
+NORMAL SMOKE(PHOTO) D-4                               Z000   000%A6 1 **   1D104
+NORMAL SMOKE(PHOTO) D-5                               Z000   000%A6 1 **   1D105
+NORMAL SMOKE(PHOTO) D-6                               Z000   000%A6 1 **   1D106
+NORMAL SMOKE(PHOTO) E Corr. at Fire Door              Z000   000%A6 1 **   1D107
+NORMAL HEAT(ROR)    E-1                               Z000   050%      *   1D108
+NORMAL HEAT(ROR)    E-1                               Z000   050%      *   1D109
+NORMAL SMOKE(PHOTO) E Corr. by Girls Rm.              Z000   000%A6 1 **   1D110
+NORMAL SMOKE(PHOTO) E  Girls Rm.                      Z000   000%A6 1 **   1D111
+NORMAL SMOKE(PHOTO) E Staff Toilet                    Z000   000%A6 1 **   1D112
+NORMAL SMOKE(PHOTO) E Custodian Closet                Z000   000%A6 1 **   1D113
+NORMAL SMOKE(PHOTO) E Boys Room                       Z000   002%A6 1 **   1D114
+NORMAL SMOKE(PHOTO) E Corr. by E-7                    Z000   000%A6 1 **   1D115
+NORMAL SMOKE(PHOTO) E-2                               Z000   000%A6 1 **   1D116
+NORMAL SMOKE(PHOTO) E-7                               Z000   000%A6 1 **   1D117
+NORMAL SMOKE(PHOTO) E Corr. by Rm. E-6                Z000   000%A6 1 **   1D118
+NORMAL SMOKE(PHOTO) E-3                               Z000   000%A6 1 **   1D119
+NORMAL SMOKE(PHOTO) E-6                               Z000   000%A6 1 **   1D120
+NORMAL SMOKE(PHOTO) E Corr. by Rm. E-3                Z000   000%A6 1 **   1D121
+NORMAL SMOKE(PHOTO) E-4                               Z000   001%A6 1 **   1D122
+NORMAL SMOKE(PHOTO) E Corridor by Exit                Z000   000%A6 1 **   1D123
+NORMAL SMOKE(PHOTO) E-5                               Z000   001%A6 1 **   1D124
+NORMAL SMOKE(DUCTP) Storage Main Lobby  RTU-4 D.Smke  Z000   001%A6 1 **   1D125
+NORMAL SMOKE(DUCTP) RTU-3 Duct Smoke    Cafeteria     Z000   000%A6 1 **   1D126
+NORMAL PULL_STATION Main Lobby                        Z000                 1M001
+NORMAL PULL_STATION Main Lobby C Corr.                Z000                 1M002
+NORMAL PULL_STATION Cafeteria by Kitchen              Z000                 1M003
+NORMAL PULL_STATION Cafeteria by Stage                Z000                 1M004
+NORMAL PULL_STATION Stage                             Z000                 1M005
+NORMAL PULL_STATION A Vestibule                       Z000                 1M007
+NORMAL PULL_STATION Kitchen                           Z000                 1M008
+NORMAL PULL_STATION Fire Pump Room                    Z000                 1M009
+NORMAL PULL_STATION A Corridor                        Z000                 1M010
+NORMAL PULL_STATION B Vestibule                       Z000                 1M011
+NORMAL PULL_STATION C Corr. by Boys Rm.               Z000                 1M012
+NORMAL PULL_STATION C Corr. by Comp. Rm.              Z000                 1M013
+NORMAL PULL_STATION D Corr. by Data Rm.               Z000                 1M014
+NORMAL PULL_STATION D Corr. at Exit Drs.              Z000                 1M015
+NORMAL PULL_STATION E Corr. by Girls Rm.              Z000                 1M016
+NORMAL PULL_STATION E Corr. by Boys Rm.               Z000                 1M017
+NORMAL PULL_STATION E Corr. by  Exit                  Z000                 1M018
+NORMAL PULL_STATION Media Center                      Z000                 1M019
+NORMAL TAMPER       Main Tamper Switch  Tamper Sw.    Z018                 1M021
+NORMAL TAMPER       A-Wing Tamper Sw.   Tamper Sw.    Z018                 1M022
+NORMAL TAMPER       B & C Wing Tamper SWTamper Sw.    Z018                 1M023
+NORMAL TAMPER       Hose Valve Gym      Tamper Sw.    Z018                 1M024
+NORMAL TAMPER       Test Header         Tamper Sw.    Z018                 1M025
+NORMAL TAMPER       Test Header         Tamper Sw.    Z018                 1M026
+NORMAL MONITOR      A-Wing              Waterflow     Z017                 1M027
+NORMAL MONITOR      B & C Wing          Waterflow     Z017                 1M028
+NORMAL MONITOR      Hose Valve Gym      Waterflow     Z017                 1M029
+NORMAL MONITOR      A-Wing              Pressure Sw.  Z017                 1M030
+NORMAL MONITOR      B & C Wing          Pressure Sw.  Z017                 1M031
+NORMAL HEAT_DETECT  A Ground Equipment                Z000                 1M032
+NORMAL TAMPER       Fire Pump Water Alm.              Z018                 1M033
+OFF    RELAY        RTU-1 Shutdown RelayComputer Rm.  Z010            ***  1M095
+OFF    RELAY        RTU-2 Fan Shutdown  A101          Z011            ***  1M125
+OFF    RELAY        RTU-3 Fan Shutdown  A123          Z012            ***  1M126
+OFF    RELAY        RTU-4 Fan Relay     Main Lob.Sto  Z013            ***  1M127
+OFF    RELAY        HV-1 Fan Relay      Mech.Rm.      Z014            ***  1M128
+OFF    RELAY        AHU-1 Fan Relay     Gym           Z015            ***  1M129
+OFF    RELAY        AHU-2 Fan Relay     Gym           Z016            ***  1M130
+NORMAL TAMPER       Engine Running      Fire Pump     Z018                 1M152
+NORMAL TAMPER       Trouble             Fire Pump     Z018                 1M153
+NORMAL TAMPER       Low Fuel Level      Fire Pump     Z018                 1M154
+NORMAL TAMPER       Low Pump Room Temp.               Z018                 1M155
+NORMAL TAMPER       Power Failure       Jockey Pump   Z018                 1M156
+NORMAL TAMPER       Power Failure       Fire Pump     Z018                 1M157
+NORMAL MONITOR      Ansuel System       Kitchen       Z000                 1M158
