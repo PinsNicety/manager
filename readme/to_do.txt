@@ -27,6 +27,9 @@ INVENTORY
 - create default device inventory that holds all device information
 - create separate table to track inventory that references all devices in the default inventory
 
+WALKTEST
+- update site, and panel to ForeignKey once you merge with inventory and Notes
+
 
 *************
 Create a module for all functions outside your views
