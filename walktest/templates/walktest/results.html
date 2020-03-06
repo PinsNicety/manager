@@ -27,7 +27,8 @@
     </thead>
     <tbody>
       {% for key, value in detectors.items %}
-        <tr>
+        {% if value.test_status == True %}
+        <tr class="bg-success">
           <td>{{ value.state }}</td>
           <td>{{ value.type_code }}</td>
           <td>{{ value.location }}</td>
@@ -35,6 +36,16 @@
           <td>{{ value.test_status }}</td>
           <td>{{ value.test_time }}</td>
         </tr>
+        {% else %}
+        <tr class="bg-warning">
+          <td>{{ value.state }}</td>
+          <td>{{ value.type_code }}</td>
+          <td>{{ value.location }}</td>
+          <td>{{ value.address }}</td>
+          <td>{{ value.test_status }}</td>
+          <td>{{ value.test_time }}</td>
+        </tr>
+        {% endif %}
       {% endfor %}
     </tbody>
   </table>
@@ -57,7 +68,8 @@
       </thead>
       <tbody>
         {% for key, value in modules.items %}
-          <tr>
+          {% if value.test_status == True %}
+          <tr class="bg-success">
             <td>{{ value.state }}</td>
             <td>{{ value.type_code }}</td>
             <td>{{ value.location }}</td>
@@ -65,6 +77,16 @@
             <td>{{ value.test_status }}</td>
             <td>{{ value.test_time }}</td>
           </tr>
+          {% else %}
+          <tr class="bg-warning">
+            <td>{{ value.state }}</td>
+            <td>{{ value.type_code }}</td>
+            <td>{{ value.location }}</td>
+            <td>{{ value.address }}</td>
+            <td>{{ value.test_status }}</td>
+            <td>{{ value.test_time }}</td>
+          </tr>
+          {% endif %}
         {% endfor %}
       </tbody>
     </table>
