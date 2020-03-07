@@ -2,6 +2,8 @@ from django.shortcuts import redirect, render
 from django.contrib.auth.models import User
 from datetime import datetime, date
 from . import models
+from openpyxl import load_workbook
+from django.http import HttpResponse
 
 # Create your views here.
 def home(request):
@@ -34,18 +36,22 @@ def entries(request):
                                             user = request.user
         )
 
-        content['entries'] = models.Entry.objects.filter(user=request.user).order_by('time_out')
+        content['entries'] = models.Entry.objects.filter(user=request.user, time_out__month=date.today().month).order_by('time_out')
         return render(request, 'timekeeper/entries.html', content)
     else:
-        content['entries'] = models.Entry.objects.filter(user=request.user).order_by('time_out')
+        content['entries'] = models.Entry.objects.filter(user=request.user, time_out__month=date.today().month).order_by('time_out')
         return render(request, 'timekeeper/entries.html', content)
+
+def entries_export(request):
+    """Exports .xlxs files to user with entries for current month."""
 
 def expenses(request):
     """ Shows all expenses for current user in the current pay period. """
 
     content = {
         'left_header': 'expenses',
-        'date': str(date.today())
+        'date_string': str(date.today()),
+        'table_month': str(date.today().strftime("%B"))
     }
 
     if request.method == 'POST':
@@ -56,14 +62,65 @@ def expenses(request):
                                             date=new_date,
                                             user=request.user
         )
-        content['expenses'] = models.Expense.objects.filter(user=request.user).order_by('date')
+        content['expenses'] = models.Expense.objects.filter(user=request.user, date__month=date.today().month).order_by('date')
         return render(request, 'timekeeper/expenses.html', content)
-
     else:
-        content['expenses'] = models.Expense.objects.filter(user=request.user).order_by('date')
+        content['expenses'] = models.Expense.objects.filter(user=request.user, date__month=date.today().month).order_by('date')
         return render(request, 'timekeeper/expenses.html', content)
 
+def expenses_export(request, table_month):
+    """
+    Exports .xlxs files to user with expenses for current month.
+    """
+    wb = load_workbook('media/walktest/expense_report.xlsx')
+    ws = wb.active
+    ws['C1'] = f"Name:____{request.user.username}____"
+    ws['C2'] = f"Month:___{table_month}____"
 
+    expenses = models.Expense.objects.filter(user=request.user, date__month=date.today().month).order_by('date')
+
+    row_data = set_row_data(expenses)
+    row_counter = 5
+
+    for row in row_data:
+        ws[f"B{row_counter}"] = row['date']
+        ws[f"C{row_counter}"] = row['location']
+        ws[f"F{row_counter}"] = row['miles']
+        row_counter += 1
+
+    response = HttpResponse(content_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+    response['Content-Disposition'] = 'attachment; filename=test_report.xlsx'
+    wb.save(response)
+    return response
+
+def set_row_data(expenses):
+    """
+    Accepts objects from view and sort data to readable form for the
+    expense sheet.
+    Data return as [{date, location, miles}]
+    """
+    row_data = []
+
+    for expense in expenses:
+        if len(row_data) == 0:
+            row_data.append({
+                'date': expense.date.strftime("%m/%d/%Y"),
+                'location': expense.site,
+                'miles': expense.miles
+            })
+        else:
+            if expense.date.strftime("%m/%d/%Y") == row_data[-1]['date']:
+                data = row_data.pop()
+                data['location'] += f"/{expense.site}"
+                data['miles'] += expense.miles
+                row_data.append(data)
+            else:
+                row_data.append({
+                    'date': expense.date.strftime("%m/%d/%Y"),
+                    'location': expense.site,
+                    'miles': expense.miles
+                })
+    return row_data
 
 def set_times(time_in, time_out):
     """

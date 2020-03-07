@@ -32,6 +32,10 @@ WALKTEST
 - add ability to export the test to excel for the user to download
 
 
+USER
+- update user model so a person can add extra details for user in other apps
+
+
 *************
 Create a module for all functions outside your views
 ************

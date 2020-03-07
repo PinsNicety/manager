@@ -5,12 +5,15 @@
 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#create_expense">
   Add Expense
 </button>
+<a href="{% url 'expenses_export' table_month %}">
+<button type="button" class="btn btn-primary btn-sm">Export Expenses</button>
+</a>
 
 <div class="row p-1">
   <table class="table table-dark table-bordered table-hover table-sm">
     <thead>
       <tr>
-        <th>January</th>
+        <th>{{ table_month }}</th>
       </tr>
       <tr>
         <th scope="col">Site</th>
@@ -54,7 +57,7 @@
           <br />
           Date:
           <br />
-          <input type="date" name="date" value="{{ date }}" />
+          <input type="date" name="date" value="{{ date_string }}" />
           <br />
           <br />
           <input class="btn btn-primary" type="submit" value="Add Expense" />
