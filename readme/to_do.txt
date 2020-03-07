@@ -2,19 +2,16 @@ TIMEKEEPER
 - add edit functionality for an event
   - THIS WILL BE DONE THROUGH JAVASCRIPT....already researched it can't be done
   with only html
-- create sorting to only show current data for time period
 - add information for left sidebar to allow user to get into history
 - add rounding to times for when people enter a time that isn't a whole or half hour
 - change the way you select the entry and expense data structures to allow to sort by given year as well as
 month
-- allow user to download current time period timesheets(either 1 or both)
-  - EXPENSES complete
+  - this will allow display of date on top of sheet instead of just month
+
 
 
 NOTES
 - merge the navigation in the left pain for easier updates
-- figure out way to retain line formatting from user input
-		- so we can add notes with tabs and spaces
 - make the left pane be for last 10 sites visited for each user
 - update home page to search for an organization with a search bar - COMPLETE
     - will add a fix to use regex to have a more thorough search
@@ -32,6 +29,7 @@ INVENTORY
 
 WALKTEST
 - update site, and panel to ForeignKey once you merge with inventory and Notes
+- break up the results from the home view function so it is added to the existing results view function
 
 
 

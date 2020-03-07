@@ -16,5 +16,7 @@ class WalkTest(models.Model):
     )
     device_list = models.FileField(upload_to='walktest/')
     test_history = models.FileField(upload_to='walktest/')
-    site = models.CharField(max_length=200, choices=set_choices(Site.objects.all()))
+    site_name = models.CharField(max_length=200, choices=set_choices(Site.objects.all()))
     panel = models.CharField(max_length=200, choices=PANEL_TYPES)
+    site = models.ForeignKey(Site, on_delete=models.CASCADE, default=None)
+    time = models.DateTimeField()

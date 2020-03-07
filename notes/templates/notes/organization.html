@@ -34,7 +34,7 @@
 <div class="btn-group" role="group" aria-label="Basic example">
   {% for site in sites %}
   <a href="{% url 'notes-site' organization.name site.name %}">
-    <button type="button" class="btn btn-secondary">{{ site.name }}</button>
+    <button type="button" class="m-1 btn btn-warning">{{ site.name }}</button>
   </a>
   {% endfor %}
 </div>

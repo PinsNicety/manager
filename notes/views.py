@@ -1,6 +1,7 @@
 from django.shortcuts import redirect, render
 from datetime import date
 from . import forms, models
+from walktest.models import WalkTest
 
 
 # Create your views here.
@@ -60,6 +61,7 @@ def site(request, organization_name, site_name):
         'organization': get_organization(organization_name),
         'site': get_site(site_name),
     }
+    content['walktests'] = WalkTest.objects.filter(site=content['site'])
     if request.method == 'POST':
         organization = content['organization']
         content['sites'] = get_sites(organization)

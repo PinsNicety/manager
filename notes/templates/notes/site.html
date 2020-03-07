@@ -22,8 +22,22 @@
 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#create_note">
   Add Note
 </button>
+<a href="{% url 'walktest-home_data' site.name %}">
+<button type="button" class="btn btn-primary btn-sm">Run Walktest</button>
+</a>
+
 <br />
 <hr />
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+
+  {% for walktest in walktests %}
+  <li class="nav-item">
+    <a class="nav-link" href="{% url 'walktest-results' walktest.id %}" role="tab" aria-controls="home" aria-selected="true">{{ walktest.time }}</a>
+  </li>
+  {% endfor %}
+
+</ul>
+
 
 {{ site.address }}
 <br />

@@ -1,0 +1,8 @@
+WALKTEST/NOTES
+- added button on site page to drop you onto the home page with the site chosen
+to match the page you navigated from
+- site model now has changed
+  - site_name = site name string
+  - site = Site model object foreign key
+
+- added links to walktests in the past that take you to the results
