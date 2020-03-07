@@ -20,7 +20,8 @@ def entries(request):
     """ Shows all entries for current user in the current pay period. """
 
     content = {
-        'left_header': 'entries'
+        'left_header': 'entries',
+        'table_month': str(date.today().strftime("%B")),
     }
 
     if request.method == 'POST':
@@ -42,8 +43,67 @@ def entries(request):
         content['entries'] = models.Entry.objects.filter(user=request.user, time_out__month=date.today().month).order_by('time_out')
         return render(request, 'timekeeper/entries.html', content)
 
-def entries_export(request):
+def entries_export(request, table_month):
     """Exports .xlxs files to user with entries for current month."""
+    wb = load_workbook('media/walktest/detail_timesheet.xlsx')
+    ws = wb.active
+    ws['B3'] = f"WEEK ENDING: {table_month}"
+    ws['B5'] = f"EMPLOYEE NAME: {request.user.username}"
+
+    entries = models.Entry.objects.filter(user=request.user, time_out__month=date.today().month).order_by('time_out')
+
+    row_data = set_entry_data(entries)
+    row_counter = 11
+
+    for row in row_data:
+        ws[f"B{row_counter}"] = row['date']
+        ws[f"C{row_counter}"] = row['day']
+        ws[f"F{row_counter}"] = row['total']
+        ws[f"H{row_counter}"] = row['customer']
+        ws[f"K{row_counter}"] = row['remarks']
+        row_counter += 1
+
+    response = HttpResponse(content_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+    response['Content-Disposition'] = 'attachment; filename=test_report.xlsx'
+    wb.save(response)
+    return response
+
+def set_entry_data(entries):
+    """
+    Accepts objects from the view and sorts data to readable form for the
+    detail timesheet.
+    Data return as [{}]
+    """
+    row_data = []
+
+    for entry in entries:
+        if len(row_data) == 0:
+            row_data.append({
+                'date': entry.time_out.strftime("%-d-%b"),
+                'day': entry.time_out.strftime("%a"),
+                'total': entry.total_time,
+                'customer': entry.site,
+                'remarks': entry.comments
+            })
+        else:
+            if entry.time_out.strftime("%-d-%b") == row_data[-1]['date']:
+                row_data.append({
+                    'date': '',
+                    'day': '',
+                    'total': entry.total_time,
+                    'customer': entry.site,
+                    'remarks': entry.comments
+                })
+            else:
+                row_data.append({
+                    'date': entry.time_out.strftime("%-d-%b"),
+                    'day': entry.time_out.strftime("%a"),
+                    'total': entry.total_time,
+                    'customer': entry.site,
+                    'remarks': entry.comments
+                })
+
+    return row_data
 
 def expenses(request):
     """ Shows all expenses for current user in the current pay period. """
