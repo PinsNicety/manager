@@ -10,6 +10,8 @@ month
 
 
 
+
+
 NOTES
 - merge the navigation in the left pain for easier updates
 - make the left pane be for last 10 sites visited for each user
