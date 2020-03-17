@@ -23,6 +23,8 @@ from other businesses they aren't a part of
 
 
 
+
+
 INVENTORY
 - create default device inventory that holds all device information
 - create separate table to track inventory that references all devices in the default inventory
