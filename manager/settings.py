@@ -25,7 +25,7 @@ SECRET_KEY = 's1l01+%lrv_a)4iiw*swyhvl2z**j_hq#buv4l(bxbafxp=@pt'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.7.48', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'manager.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'django',
+        'NAME': 'DBmanager_1',
         'USER': 'postgres',
         'PASSWORD': 'django123',
         'HOST': 'localhost',
@@ -142,3 +142,8 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\
 
 MEDIA_URL = '/media/'
+
+try:
+    from local_settings import *
+except ImportError:
+    pass
